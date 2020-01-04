@@ -1,0 +1,22 @@
+body {
+	background: #303030; color: silver; font-size: 9pt; 
+	text-align: center; margin: auto;  padding: auto;
+	font-family: -apple-system, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+table { width: 800px; margin-left: auto; margin-right: auto;
+	border-spacing: 0px; border-collapse: separate; background: #b0b0b0; }
+.tops { width: 120px; border: 0px; background: #303030; }
+.main { height: 250px; overflow: auto; display: block; }
+.blnk { border: 0px; }
+th , td { color: #000000; border: #408040 solid 0.5px; font-size: 9pt; }
+th { white-space: normal; width: 40px; vertical-align: top; }
+
+hr { width: 800px; }
+
+a , a:visited , a:hover { color: #3030ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code { font-family: source-code-pro, "Courier New", monospace; }
