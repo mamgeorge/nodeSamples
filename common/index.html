@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 { color: #ff1010; }
 a, a:hover, a:visited { color: #4080ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
 </style>
-<script type = "text/javascript" src = "resources/basics.js" ></script>
+<script type = "text/javascript" src = "libraries/basics.js" ></script>
 
 </head>
 
@@ -22,16 +22,25 @@ a:hover { text-decoration: underline; }
 <br /><b><script>document.write( date );</script></b>
 <hr />
 
-<table style = "width: 80%" >
-<tr style = "background: #202020;" >
-	<td><img class = "rot" style = "width: 50px" src = "images/node.png" /></td>
-	
-	<td><a href = "/"				>root		</a>
+<table style = "width: 80%" border = "1" >
+<tr>
+	<td style = "width: 20%"><img class = "rot" style = "width: 100px" src = "images/node.png" /></td>
+
+	<td style = "width: 40%">
+			  <a href = "/"			>root		</a>
 		<br /><a href = "/home"		>/home		</a>
-		<br /><a href = "/python"	>/python	</a>
-		<br /><a href = "/java"		>/java		</a>
+		<br /><a href = "/hello"	>/hello		</a>
 		<br /><a href = "/exit"		>/exit		</a>
-		</td></tr>
+		</td>
+
+	<td style = "width: 40%" >		
+			  <a href = "/json"			>/json		</a>
+		<br /><a href = "/json/1"		>/json/1	</a>
+		<br /><a href = "/zips"			>/zips		</a>
+		<br /><a href = "/python"		>/python	</a>
+		<br /><a href = "/java"			>/java		</a>
+		</td>
+</tr>
 </table>
 
 <hr /><a href = "/" >return</a>

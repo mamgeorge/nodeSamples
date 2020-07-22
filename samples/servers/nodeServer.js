@@ -2,7 +2,7 @@
 
 let http = require( 'http' ) ;
 let fs = require( 'fs' ) ;
-let basics = require( './resources/basics.js' ) ;
+let basics = require( '../../common/resources/basics.js' ) ;
 
 let port = 3000 ;
 let info = process.env.USERNAME + ' / ' + process.env.COMPUTERNAME + ' / ' + port + ' / ';
@@ -16,7 +16,7 @@ function serveStatics( response , pathFile , contentType , responseCode ) {
 
 let varServer = http.createServer( function ( request , response ) {
 	//
-	let file = request.url ; if( file == '/' ) { file = 'index.html' ; }
+	let file = request.url ; if( file == '/' ) { file = '../../common/index.html' ; }
 	if( file == '/java' ) { basics.spawnJava(  'C:\\servers\\nodejs\\public' , 'resources.AnyClass' , response ); } else
 	if( file == '/base' ) { basics.dBaseSQLITE(  'C:/dBase/sqlite/TEST.db' , 'SELECT name FROM anyTable' , response ); } else
 	{

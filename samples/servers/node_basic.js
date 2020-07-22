@@ -1,6 +1,7 @@
-// http://127.0.0.1:1337/?q=1234
+// http://127.0.0.1:3000/?q=1234
 var http = require( 'http' ) ;
-var basics = require( './root/basics.js' ) ;
+var basics = require( '../../common/resources/basics.js' ) ;
+let port = 3000 ;
 
 // request handler
 var varServer = http.createServer( ) ;
@@ -11,10 +12,10 @@ varServer.on( 'request' , function requestor( request , response )
 	console.log( 'varDate: ' + varDate ) ;
 	//
 	response.writeHead( 200 , { 'Content-Type': basics.MIME_TYPE.html } ) ;
-	response.write( basics.get_html( varDate ) ) ;
+	response.write( varDate ) ;
 	response.end( 'MLG' ) ;
 } ) ;
 
-varServer.listen( 1337 , '127.0.0.1' ) ;
+varServer.listen( port , '127.0.0.1' ) ;
 
-console.log( 'Server running at: http://127.0.0.1:1337/' ) ;
+console.log( 'Server running at: http://127.0.0.1:' + port) ;
