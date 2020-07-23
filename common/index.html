@@ -8,34 +8,35 @@
 <link type = "image/x-icon" rel = "shortcut icon" href = "images/node.png" />
 <link rel = "apple-touch-icon" href = "images/node.png" />
 
-<link type = "text/css" rel = "StyleSheet" href = "resources/basics.css" />
+<link type = "text/css" rel = "StyleSheet" href = "common/resources/basics.css" />
 <style>body, td { font-size: 12pt; background: #202020; color: #f0f0f0; }
 h1,h2,h3,h4,h5,h6 { color: #ff1010; }
 a, a:hover, a:visited { color: #4080ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
 </style>
-<script type = "text/javascript" src = "libraries/basics.js" ></script>
+<script type = "text/javascript" src = "common/libraries/basics.js" ></script>
 
 </head>
 
 <body><center><h1>MLG</h1>
-<br /><b><script>document.write( date );</script></b>
+<br /><b><script>document.write( new Date( ).toISOString( ) );</script></b>
 <hr />
 
 <table style = "width: 80%" border = "1" >
 <tr>
-	<td style = "width: 20%"><img class = "rot" style = "width: 100px" src = "images/node.png" /></td>
+	<td style = "width: 20%"><img class = "rot" style = "width: 100px" 
+		src = "images/node.png" /></td>
 
 	<td style = "width: 40%">
-			  <a href = "/"			>root		</a>
+			  <a href = "/exit"		>/exit		</a>
+		<br /><a href = "/"			>/root		</a>
 		<br /><a href = "/home"		>/home		</a>
-		<br /><a href = "/hello"	>/hello		</a>
-		<br /><a href = "/exit"		>/exit		</a>
+		<br /><a href = "/test"		>/test		</a>
 		</td>
 
 	<td style = "width: 40%" >		
 			  <a href = "/json"			>/json		</a>
-		<br /><a href = "/json/1"		>/json/1	</a>
+		<br /><a href = "/jsons"		>/jsons		</a>
 		<br /><a href = "/zips"			>/zips		</a>
 		<br /><a href = "/python"		>/python	</a>
 		<br /><a href = "/java"			>/java		</a>

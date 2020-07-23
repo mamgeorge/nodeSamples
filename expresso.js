@@ -1,76 +1,97 @@
 // https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
-// > curl -v localhost:3000/json
+// cd c:\workspace\vscode\nodeSamples
+// node expresso
+// > curl -v http://localhost:3000/json
 
 const basics = require( './common/libraries/basics.js' ) ;
+const path = require( 'path' ) ;
 const express = require( 'express' ) ;
 const expressApp = express( ) ;
 const PORT = 3000;
 	
-expressApp.use( express.static( 'common' ) ) ;
-expressApp.use( express.static( 'common/libraries' ) ) ;
-expressApp.use( express.static( 'public' ) ) ;
-expressApp.use( express.static( 'images' ) ) ;
-expressApp.use( express.static( 'resources' ) ) ;
-expressApp.use( express.static( 'libraries' ) ) ;
-expressApp.use( express.static( 'special' ) ) ;
+expressApp.use( express.static( path.join( __dirname, '/' ) ) ) ;
+expressApp.use( express.static( path.join( __dirname, '/images' ) ) ) ;
+expressApp.use( express.static( path.join( __dirname, '/common/resources' ) ) ) ;
+expressApp.use( express.static( path.join( __dirname, '/common/libraries' ) ) ) ;
 
 //
 const varServer = expressApp.listen( PORT , ( )=> {
 	//
 	const date = new Date( ).toISOString( );
-	const host = varServer.address( ).address ;
-	const port = varServer.address( ).port ;
-	const txt = `${ basics.COLORS.GRN1 }${ date }` 
-	+ `${ basics.COLORS.WHT1 } | `
-	+ `${ basics.COLORS.BLU1 }http://%s:%s${ basics.COLORS.NON0 }`;
+	const txt = `${ basics.COLORS.CYN1 }` 
+	+ `expresso${ basics.COLORS.GRN1 }`
+	+ `\n    user: ${ process.env.USERNAME }`
+	+ `\n    date: ${ date }`
+	+ `\n    drnm: ${__dirname}` 
+	+ `${ basics.COLORS.NON0 }`;
+	console.log( txt ) ;
+} ) ;
+
+
+expressApp.get( [ '/0' , '/exit' ] , ( request , response ) => {
 	//
-	console.log( txt , host , port ) ;
-	console.log( '__dirname: ' + __dirname ) ;
+	const txtline = basics.COLORS.RED1 + 'EXIT!' + basics.COLORS.NON0;
+	console.log( txtline ) ;
+	process.exit(0);
 } ) ;
 
-expressApp.get( '/' , ( request , response ) => {
-	response.send( 'Hi!' ); 
+expressApp.get( [ '/1' , '/' , '/root' ], ( request , response ) => {
+	//
+	let txtline = basics.COLORS.CYN1 + 'Hello!' + basics.COLORS.NON0;
+	txtline += '\n    0 ' + 'exit';
+	txtline += '\n    1 ' + 'root';
+	txtline += '\n    2 ' + 'home';
+	txtline += '\n    3 ' + 'test';
+	txtline += '\n    4 ' + 'json';
+	txtline += '\n    5 ' + 'zip';
+	txtline += '\n    6 ' + 'java';
+	txtline += '\n    7 ' + 'python';
+	console.log( txtline ) ;
+	response.send( txtline ); 
 } ) ;
 
-expressApp.get( '/home' , ( request , response ) => {
-	console.log( request.headers );
+expressApp.get( [ '/2' , '/home' ] , ( request , response ) => {
 	const fileName = __dirname + '/common/index.html';
 	console.log( fileName ) ;
 	response.sendFile( fileName );
 } ) ;
 
-expressApp.get( '/hello' , ( request , response ) => {
-	response.send( 'Hello World!' ); 
+expressApp.get( [ '/3' , '/test' ] , ( request , response ) => {
+	console.log( request.headers );
+	const envr = Object.keys( process.env ).map( ( idx , ctr ) => 
+		ctr.toString( ).padEnd(2) + ' ' 
+		+ idx.padEnd(25) + ' | ' 
+		+ process.env[ idx ] ) ;
+	console.log( envr ) ;	
+	response.sendStatus( 200 ); 
 } ) ;
 
-expressApp.get( '/json' , ( request , response ) => response.json( { ping: true } ) );
+expressApp.get( [ '/j' , '/jsons' ] , ( request , response ) => response.json( { ping: true } ) );
 
-expressApp.get( '/json/1' , ( request , response ) => { 
+expressApp.get( [ '/4' , '/json' ] , ( request , response ) => { 
 	//
 	const fileName = __dirname + '/common/resources/books.json';
+	console.log( fileName ) ;
 	response.sendFile( fileName ) 
 } );
 
-expressApp.get( '/zips' , ( request , response ) => { 
+expressApp.get( [ '/5' , '/zip' ] , ( request , response ) => { 
 	//
 	const fileName = __dirname + '/common/resources/xml/xml_wav_books_7zp.zip';
+	console.log( fileName ) ;
 	response.sendFile( fileName ) 
 } );
 
-expressApp.get( '/java' , ( request , response ) => {
+expressApp.get( [ '/6' , '/java' ] , ( request , response ) => {
 	//
 	const pathName = 'C:\\servers\\nodejs\\';
+	console.log( pathName ) ;
 	basics.spawnJava( pathName , 'resources.AnyClass' , response ); 
 } ) ;
 
-expressApp.get( '/python' , ( request , response ) => { 
-	basics.spawnPython( './resources/sample.py' , '' , response ); 
-} ) ;
-
-expressApp.get( '/exit' , ( request , response ) => {
+expressApp.get( [ '/7' , '/python' ] , ( request , response ) => { 
 	//
-    varServer.close( ( ) => {
-		console.log( 'Closed out remaining connections' );
-		process.exit(0);
-    } );
+	const fileName = './resources/sample.py';
+	console.log( fileName ) ;
+	basics.spawnPython( fileName , '' , response ); 
 } ) ;
