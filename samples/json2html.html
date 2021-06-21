@@ -1,0 +1,55 @@
+<!-- C:\workspace\vscode\nodeSamples\samples\json2html.html -->
+<html><head><title>json2html</title>
+<link type = "text/css" rel = "StyleSheet" href = "../common/resources/basics.css" />
+
+<script>
+var booklist = [
+	{
+		"Book ID": "1",
+		"Book_Name": "Computer Architecture",
+		"Category": "Computers",
+		"Price": "125.60"
+	},
+	{
+		"Book ID": "2",
+		"Book_Name": "Asp.Net 4 Blue Book",
+		"Category": "Programming",
+		"Price": "56.00"
+	},
+	{
+		"Book ID": "3",
+		"Book_Name": "Popular Science",
+		"Category": "Science",
+		"Price": "210.40"
+	}
+];
+
+function json2tbl() {
+	//
+	var tbl = '<table>';
+	for (var ictr = 0; ictr < booklist.length; ictr++) {
+		//
+		tbl += '<tr>';
+		tbl += '<td>' + booklist[ ictr ]["Book ID"] + '</td>' ;
+		tbl += '<td>' + booklist[ ictr ].Book_Name	+ '</td>' ;
+		tbl += '<td>' + booklist[ ictr ].Category	+ '</td>' ;
+		tbl += '<td>' + booklist[ ictr ].Price		+ '</td>' ;
+		tbl += '</tr>';
+	}
+	tbl += '</table>'
+	//
+	document.getElementById('data').innerHTML = tbl;
+}
+
+window.onload = json2tbl ;
+
+</script>
+</head>
+
+<body><center>
+<br /><h3>json2html</h3>
+<br /><br />
+<div id = "data" />
+
+</center>
+</body></html>

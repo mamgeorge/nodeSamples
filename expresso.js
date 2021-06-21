@@ -11,14 +11,15 @@ const log4js = require( 'log4js' )
 const path = require( 'path' )
 const expressApp = express( )
 const PORT = 3000
-let date = new Date( ).toISOString( )
 
 expressApp.use( express.static( path.join( __dirname, '/' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/images' ) ) )
+expressApp.use( express.static( path.join( __dirname, '/common' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/common/resources' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/common/libraries' ) ) )
 //
 // logging setup
+let date = new Date( ).toISOString( )
 datestamp = '_' + date.replace(/-/g,'').replace(/T/g,'_').replace(/:/g,'').replace(/\./g,'')
 fileSimpl = 'logs/' + 'expresso' + '.log'
 fileTitle = 'logs/' + 'expresso' + datestamp.substr(0,16) + '.log'
@@ -58,8 +59,7 @@ function getGeneric( prefix, req ) {
 
 expressApp.get( [ '/0' , '/exit' ] , ( request , response ) => {
 	//
-	const txtline = colors.brightRed( 'EXIT!' )
-	console.log( txtline )
+	console.log( colors.brightRed( 'EXIT!' ) )
 	process.exit(0)
 } )
 
@@ -81,7 +81,8 @@ expressApp.get( [ '/1' , '/' , '/root' ], ( request , response ) => {
 } )
 
 expressApp.get( [ '/2' , '/home' ] , ( request , response ) => {
-	const fileName = __dirname + '/common/index.html'
+	//
+	const fileName = path.resolve( __dirname + '/common/index.html' )
 	console.log( fileName )
 	response.sendFile( fileName )
 	response.end( )

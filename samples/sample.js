@@ -1,23 +1,35 @@
 // \servers\nodejs\sample.js
 
-//const basics = require( '../common/libraries/basics.js' );
+const express = require( 'express' )
+const expressApp = express( )
+const path = require( 'path' )
+const PORT = 3000
 
-var blinkstick = require('blinkstick'),
-    device = blinkstick.findFirst();
+expressApp.use( express.static( path.join( __dirname, '/' ) ) )
+expressApp.use( express.static( path.join( __dirname, '/samples' ) ) )
+expressApp.use( express.static( path.join( __dirname, '/samples/xtra' ) ) )
+expressApp.use( express.static( path.join( __dirname, '/xtra' ) ) )
 
-if (device) {
-    var finished = false;
+// server
+const varServer = expressApp.listen( PORT , ( )=> {
+	//
+	console.log( 'expresso' )
+} )
 
-    device.blink('red', {'delay':100, 'repeats': 5}, function() {
-        device.blink('green', {'delay':50, 'repeats': 10}, function() {
-            device.blink('blue', {'delay':25, 'repeats': 20}, function() {
-                finished = true;
-            });
-        });
-    });
+expressApp.get( '/' , function ( request , response ) {
+	//
+	const fileName = __dirname + '/xtra/generic.html'; 
+	console.log( 'fileName: ' + fileName )
+	console.log( new Date( ).toISOString( ) )
+	//
+	// response.sendStatus( 200 )
+	response.sendFile( fileName )
+	response.end( )	
+} )
 
-    var wait = function () { if (!finished) setTimeout(wait, 100)}
-    wait();
-}
+expressApp.get( [ '/0' , '/exit' ] , ( request , response ) => {
+	//	
+	console.log( colors.brightRed( 'EXIT!' ) )
+	process.exit(0)
+} )
 
-//console.log( basics.COLORS.GRN1 + "HELLO" + basics.COLORS.NON0 );
