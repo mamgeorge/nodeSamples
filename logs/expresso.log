@@ -350,3 +350,1578 @@ Beginning batch run for expresso
 [2021-03-12T17:43:39.443] [INFO] testing - 
 ■■■■■■■■■■■■■■■■■■■■
 Beginning batch run for expresso 
+[2021-09-26T22:21:12.646] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-26T22:22:00.103] [INFO] testing - test : 2021-09-27T02:22:00.047Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"sec-ch-ua": "\"Google Chrome\";v=\"93\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"93\"",
+	"sec-ch-ua-mobile": "?0",
+	"sec-ch-ua-platform": "\"Windows\"",
+	"upgrade-insecure-requests": "1",
+	"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36",
+	"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"sec-fetch-site": "same-origin",
+	"sec-fetch-mode": "navigate",
+	"sec-fetch-user": "?1",
+	"sec-fetch-dest": "document",
+	"referer": "http://localhost:3000/",
+	"accept-encoding": "gzip, deflate, br",
+	"accept-language": "en-US,en;q=0.9"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-26T23:12:55.627] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-26T23:13:21.175] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-26T23:13:40.966] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-26T23:14:35.309] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-26T23:15:18.763] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T00:57:39.131] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T00:58:40.711] [INFO] testing - test : 2021-09-27T04:58:40.705Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:03:38.135] [INFO] testing - test : 2021-09-27T05:03:38.131Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:09:14.550] [INFO] testing - test : 2021-09-27T05:09:14.546Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:10:33.615] [INFO] testing - test : 2021-09-27T05:10:33.613Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "application/x-www-form-urlencoded",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "7"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:17:03.754] [INFO] testing - test : 2021-09-27T05:17:03.753Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:17:16.851] [INFO] testing - test : 2021-09-27T05:17:16.849Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, */*",
+	"content-type": "application/x-www-form-urlencoded",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "7"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:44:45.408] [INFO] testing - test : 2021-09-27T05:44:45.407Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "application/x-www-form-urlencoded",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "7"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T01:44:45.488] [INFO] testing - test : 2021-09-27T05:44:45.487Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | e86d3395-2edb-4299-ba55-dc13ed7ba331'[39m
+[94m][39m
+[2021-09-27T10:35:23.154] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T11:28:46.225] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T11:28:46.847] [INFO] testing - test : 2021-09-27T15:28:46.829Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T11:29:25.259] [INFO] testing - test : 2021-09-27T15:29:25.256Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "application/x-www-form-urlencoded",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "7"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T11:29:25.525] [INFO] testing - test : 2021-09-27T15:29:25.522Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T11:29:59.385] [INFO] testing - test : 2021-09-27T15:29:59.383Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "application/x-www-form-urlencoded",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "7"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T11:29:59.649] [INFO] testing - test : 2021-09-27T15:29:59.647Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T12:11:25.086] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T12:59:20.702] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T13:20:38.083] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T13:20:55.255] [INFO] testing - test : 2021-09-27T17:20:55.251Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T13:20:55.487] [INFO] testing - test : 2021-09-27T17:20:55.484Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T13:30:54.073] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T14:34:37.307] [INFO] testing - 
+■■■■■■■■■■■■■■■■■■■■
+Beginning batch run for expresso 
+[2021-09-27T14:34:55.438] [INFO] testing - test : 2021-09-27T18:34:55.432Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
+[2021-09-27T14:34:55.750] [INFO] testing - test : 2021-09-27T18:34:55.746Z
+c:\workspace\github\nodeSamples
+{}
+{
+	"accept": "text/plain, application/json, application/*+json, */*",
+	"content-type": "text/plain;charset=ISO-8859-1",
+	"accept-charset": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+	"user-agent": "Java/11.0.10",
+	"host": "localhost:3000",
+	"connection": "keep-alive",
+	"content-length": "3"
+}
+[94m[[39m
+[94m  '0 ALLUSERSPROFILE           | C:\\ProgramData',[39m
+[94m  '1 APPDATA                   | C:\\Users\\mamge\\AppData\\Roaming',[39m
+[94m  '2 asl.log                   | Destination=file',[39m
+[94m  '3 CATALINA_HOME             | C:\\servers\\tomcat\\tomcat85\\bin',[39m
+[94m  '4 ChocolateyInstall         | C:\\ProgramData\\chocolatey',[39m
+[94m  '5 ChocolateyLastPathUpdate  | 132481533690635575',[39m
+[94m  '6 CLASSPATH                 | C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derby.jar;C:\\dbase\\derby\\db-derby-10.12.1.1-bin\\lib\\derbytools.jar',[39m
+[94m  '7 CommonProgramFiles        | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '8 CommonProgramFiles(x86)   | C:\\Program Files (x86)\\Common Files',[39m
+[94m  '9 CommonProgramW6432        | C:\\Program Files\\Common Files',[39m
+[94m  '10 COMPUTERNAME              | 2017-MARTIN',[39m
+[94m  '11 ComSpec                   | C:\\WINDOWS\\system32\\cmd.exe',[39m
+[94m  '12 CORONA_PATH               | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '13 CORONA_ROOT               | C:\\Program Files (x86)\\Corona Labs\\Corona\\Native',[39m
+[94m  '14 CORONA_SDK_PATH           | C:\\Program Files (x86)\\Corona Labs\\Corona\\',[39m
+[94m  '15 DERBY_HOME                | C:\\dbase\\derby\\db-derby-10.12.1.1-bin',[39m
+[94m  '16 DERBY_INSTALL             | C:\\dbase\\derby\\schemas',[39m
+[94m  '17 DriverData                | C:\\Windows\\System32\\Drivers\\DriverData',[39m
+[94m  '18 GRADLE_HOME               | C:\\ide\\gradle\\gradle-6.8.1',[39m
+[94m  '19 GROOVY_HOME               | C:\\ide\\groovy\\groovy-3.0.7',[39m
+[94m  '20 GTK_BASEPATH              | C:\\Program Files (x86)\\GtkSharp\\2.12\\',[39m
+[94m  '21 HOMEDRIVE                 | C:',[39m
+[94m  '22 HOMEPATH                  | \\Users\\mamge',[39m
+[94m  '23 IntelliJ IDEA Community Edition | C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;',[39m
+[94m  '24 JAVA08_HOME               | C:\\Program Files\\Java\\jdk1.8.0_111',[39m
+[94m  '25 JAVA_HOME                 | C:\\Program Files\\Java\\jdk-11.0.10',[39m
+[94m  '26 JAVA_TEMPCP               | C:\\workspace\\github\\spring_annotations\\target\\classes;',[39m
+[94m  '27 JMETER_HOME               | C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1',[39m
+[94m  '28 KOTLIN_HOME               | C:\\ide\\kotlin\\kotlin-native-windows-1.4.32',[39m
+[94m  '29 LOCALAPPDATA              | C:\\Users\\mamge\\AppData\\Local',[39m
+[94m  '30 LOGONSERVER               | \\\\2017-MARTIN',[39m
+[94m  '31 M2_HOME                   | C:\\ide\\maven\\apache-maven-3.6.3',[39m
+[94m  '32 NODE_HOME                 | C:\\Program Files (x86)\\nodejs',[39m
+[94m  '33 NUMBER_OF_PROCESSORS      | 4',[39m
+[94m  '34 OneDrive                  | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '35 OneDriveConsumer          | C:\\Users\\mamge\\OneDrive',[39m
+[94m  '36 OnlineServices            | Online Services',[39m
+[94m  '37 OS                        | Windows_NT',[39m
+[94m  '38 Path                      | C:\\Program Files\\ImageMagick;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files\\Java\\jdk1.8.0_111\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files (x86)\\nodejs\\;C:\\arch\\kubernetes\\Minikube;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\mamge\\AppData\\Local\\Programs\\Python\\Python38-32\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\arch\\kubernetes;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps;C:\\ide\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\mamge\\AppData\\Local\\atom\\bin;C:\\Program Files (x86)\\Excamera Labs\\I2CDriver;C:\\Program Files\\Java\\jdk-11.0.10\\bin;C:\\ide\\maven\\apache-maven-3.6.3\\bin;C:\\ide\\gradle\\gradle-6.8.1\\bin;C:\\ide\\groovy\\groovy-3.0.7\\bin;C:\\ide\\kotlin\\kotlin-native-windows-1.4.32\\bin;C:\\servers\\devops\\jmeter\\apache-jmeter-5.4.1\\bin;C:\\Users\\mamge\\AppData\\Roaming\\npm;C:\\dbase\\liquibase\\liquibase-4.3.1;C:\\dbase\\flyway\\flyway-7.7.0;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.1\\bin;C:\\Users\\mamge\\AppData\\Local\\Microsoft\\WindowsApps',[39m
+[94m  '39 PATHEXT                   | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',[39m
+[94m  '40 platformcode              | KV',[39m
+[94m  '41 PROCESSOR_ARCHITECTURE    | x86',[39m
+[94m  '42 PROCESSOR_ARCHITEW6432    | AMD64',[39m
+[94m  '43 PROCESSOR_IDENTIFIER      | Intel64 Family 6 Model 142 Stepping 9, GenuineIntel',[39m
+[94m  '44 PROCESSOR_LEVEL           | 6',[39m
+[94m  '45 PROCESSOR_REVISION        | 8e09',[39m
+[94m  '46 ProgramData               | C:\\ProgramData',[39m
+[94m  '47 ProgramFiles              | C:\\Program Files (x86)',[39m
+[94m  '48 ProgramFiles(x86)         | C:\\Program Files (x86)',[39m
+[94m  '49 ProgramW6432              | C:\\Program Files',[39m
+[94m  '50 PROMPT                    | $P$G',[39m
+[94m  '51 PSModulePath              | C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',[39m
+[94m  '52 PUBLIC                    | C:\\Users\\Public',[39m
+[94m  '53 RegionCode                | NA',[39m
+[94m  '54 SPLUNK_DB                 | C:\\Program Files\\Splunk\\var\\lib\\splunk',[39m
+[94m  '55 SPLUNK_ETC                | C:\\Program Files\\Splunk\\etc',[39m
+[94m  '56 SPLUNK_HOME               | C:\\Program Files\\Splunk',[39m
+[94m  '57 SPRING_HOME               | C:\\arch\\spring-2.3.4.RELEASE\\bin',[39m
+[94m  '58 SystemDrive               | C:',[39m
+[94m  '59 SystemRoot                | C:\\WINDOWS',[39m
+[94m  '60 TEMP                      | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '61 TMP                       | C:\\Users\\mamge\\AppData\\Local\\Temp',[39m
+[94m  '62 USERDOMAIN                | 2017-MARTIN',[39m
+[94m  '63 USERDOMAIN_ROAMINGPROFILE | 2017-MARTIN',[39m
+[94m  '64 USERNAME                  | mamge',[39m
+[94m  '65 USERPROFILE               | C:\\Users\\mamge',[39m
+[94m  '66 VBOX_MSI_INSTALL_PATH     | C:\\Program Files\\Oracle\\VirtualBox\\',[39m
+[94m  '67 windir                    | C:\\WINDOWS',[39m
+[94m  '68 WSLENV                    | WT_SESSION::WT_PROFILE_ID',[39m
+[94m  '69 WT_PROFILE_ID             | {0caa0dad-35be-5f56-a8ff-afceeeaa6101}',[39m
+[94m  '70 WT_SESSION                | 48aa508a-5d2f-46ea-8435-795a1b5fe8cc'[39m
+[94m][39m
