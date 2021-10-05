@@ -1,6 +1,6 @@
 // https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js
 // cd c:\workspace\vscode\nodeSamples
-// node expresso
+// node expressAxios
 // > curl -v http://localhost:3000/json
 // > powershell (curl http://localhost:3000/json).content
 
@@ -10,12 +10,14 @@ const colors = require( 'colors/safe' )
 const expressApp = express( ) 
 const PORT = 3000
 
+process.title = 'EXPRESS AXIOS'
 expressApp.use( express.urlencoded( ) )
 expressApp.use( express.json( ) )
-//
+
 const varServer = expressApp.listen( PORT , ( )=> 
 { console.log( colors.brightGreen( new Date( ).toISOString( ) ) ) } ) 
 
+//
 expressApp.get( [ '/0' , '/exit' ] , ( request , response ) => 
 { console.log( colors.brightRed( 'EXIT!' ) ); process.exit(0) } ) 
 

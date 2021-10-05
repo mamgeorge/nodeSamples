@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
-<!-- ©2014 Martin George , All rights reserved. -->
-
 <html><head><title>MLG</title>
+<!-- DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" -->
+<!-- ©2014 Martin George , All rights reserved. -->
+<!-- C:\workspace\github\nodeSamples\common\index.html -->
 <!--base href = "C:/Martin/4Work/mamgeorge/" -->
 <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8" />
 <meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
@@ -9,43 +9,63 @@
 <link rel = "apple-touch-icon" href = "images/node.png" />
 
 <link type = "text/css" rel = "StyleSheet" href = "common/resources/basics.css" />
-<style>body, td { font-size: 12pt; background: #202020; color: #f0f0f0; }
-h1,h2,h3,h4,h5,h6 { color: #ff1010; }
+<style>body, td { font-size: 12pt; background: #101010; color: #f0f0f0; font-family: verdana; }
+h1,h2,h3,h4,h5,h6 { color: #f00000; display: inline; } form { display: inline; }
 a, a:hover, a:visited { color: #4080ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
+hr { width: 60% }
+.btn { background-color: #dcdccc; color: #000000; font: bold 11px Arial; padding: 2px 6px 2px 6px; border: 1px solid #404040; }
 </style>
 <script type = "text/javascript" src = "common/libraries/basics.js" ></script>
 
 </head>
 
-<body><center><h1>MLG</h1>
-<br /><b><script>document.write( new Date( ).toISOString( ) );</script></b>
-<hr />
+<body><center><h3>MLG</h3>
+<br /><h5/><script>document.write( new Date( ).toISOString( ) );</script></h5>
+<br /><br />
 
-<table style = "width: 80%" border = "1" >
+<table style = "width: 80%" border = "0" >
 <tr>
-	<td style = "width: 20%"><img class = "rot" style = "width: 100px" 
-		src = "images/node.png" /></td>
+	<td style = "background: #202020; width: 20%"><img class = "rot" style = "width: 100px"
+		src = "../images/node.png" /></td>
 
-	<td style = "width: 40%">
-			  <a href = "/exit"	>/exit		</a>
-		<br /><a href = "/"			>/root		</a>
-		<br /><a href = "/home"	>/home		</a>
-		<br /><a href = "/hdrs"	>/hdrs		</a>
-		<br /><a href = "/envr"	>/envr		</a>
-		<br /><a href = "/file"	>/file		</a>
-		</td>
+	<td style = "padding: 10px;"><br />
 
-	<td style = "width: 40%" >		
-			  <a href = "/wave"	>/wave		</a>
-		<br /><a href = "/zips"	>/zips		</a>
-		<br /><a href = "/java"	>/java		</a>
-		<br /><a href = "/python"	>/python	</a>
-		<br /><a href = "/sqlite"	>/sqlite	</a>
+		2000:
+		<a href = "http:/localhost:2000"	>GET </a> /
+		<form action = "http:/localhost:2000/form" method = "POST" enctype = "text/plain">POST
+			<input type = "hidden" name = "anyhide" id = "anyhide" value = "anyhide" />
+			<input type = "text" name = "anyname" id = "anyid" value = "anyvalue" style = "width: 60px;" />
+			
+			<label class = "btn" for "anyfile" >SELECTFILE</label>
+			<input class = "btn" type = "file" name = "anyfile" id = "anyfile" value = ""
+				style = "visibility: display; width: 85px;" />
+			<br />
+			<input class = "btn" type = "submit" name = "submit" id = "submit" value = "SUBMITPLAIN" />
+			<input class = "btn" type = "submit" name = "submit" id = "submit" value = "SUBMITMULTI" formenctype = "multipart/form-data" />
+			</form><br />
+
+		<br /><hr /><br />
+
+		3000:
+		<a href = "/"		>root		</a> /
+		<a href = "/home"	>home		</a> /
+		<a href = "/hdrs"	>hdrs		</a> /
+		<a href = "/envr"	>envr		</a> /
+		<a href = "/file"	>file		</a>
+		<br />
+
+		<br /><hr /><br />
+
+		3000:
+		<a href = "/wave"	>wave		</a> /
+		<a href = "/zips"	>zips		</a> /
+		<a href = "/java"	>java		</a> /
+		<a href = "/python"	>python	</a> /
+		<a href = "/sqlite"	>sqlite	</a>
+		<br /><br />
 		</td>
 </tr>
 </table>
-
-<hr /><a href = "/" >return</a>
 
 </center></body></html>
