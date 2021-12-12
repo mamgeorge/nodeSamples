@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="xml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/common/resources/xml/xml_wav_foods_w10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/common/resources/xml/xml_wav_books_7zp.zip!/" />
+      <root url="jar://$PROJECT_DIR$/common/resources/xml/xml_wav_plants_w10.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
