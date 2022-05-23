@@ -8,6 +8,7 @@ const PORT = 3000
 expressApp.use( express.static( path.join( __dirname, '/' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/samples' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/samples/xtra' ) ) )
+expressApp.use( express.static( path.join( __dirname, '../images' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/xtra' ) ) )
 
 // server
@@ -18,7 +19,7 @@ const varServer = expressApp.listen( PORT , ( )=> {
 
 expressApp.get( '/' , function ( request , response ) {
 	//
-	const fileName = __dirname + '/xtra/generic.html'; 
+	const fileName = __dirname + '/generic.html'; 
 	console.log( 'fileName: ' + fileName )
 	console.log( new Date( ).toISOString( ) )
 	//
