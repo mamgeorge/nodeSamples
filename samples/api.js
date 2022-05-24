@@ -1,5 +1,5 @@
 // cd c:\workspace\github\nodeSamples
-// node samples/sample
+// node samples/api
 
 const express = require( 'express' )
 const expressApp = express( )
@@ -28,41 +28,29 @@ const options = { uri: 'http://localhost:2000', // the rest of this is not neede
 }
 
 // server
-const varServer = expressApp.listen( PORT , ( )=> {
-	//
-	console.log( 'expresso' )
-} )
+const varServer = expressApp.listen( PORT , ( )=> { console.log( 'expresso api' ) } )
 
-expressApp.get( '/' , function ( request , response ) {
-	//
-	const fileName = __dirname + '/generic.html'; 
-	console.log( 'fileName: ' + fileName )
-	console.log( new Date( ).toISOString( ) )
-	//
-	// response.sendStatus( 200 )
-	response.sendFile( fileName )
-	response.end( )	
-} )
-
-expressApp.get( '/access' , ( req, res ) => {
+expressApp.get( '/' , ( req, res ) => {
 	//
 	// https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html
 	let msg = new Date( ).toISOString( ) + ' / ' 
-	getTokens().then((inf) => { res.send( msg + inf ) } )
+	let dataAwaited = getDataPromised()
+		dataAwaited.then((inf) => { res.send( msg + inf ) } )
 } ) 
 
-const getData = async ( ) => { 
-	return await getTokens( ).then( (data) => { return data } )
-}
-
-const getTokens = ( ) => {
-	return new Promise(resolve => {
+const getDataPromised = async ( ) => { 
+	let dataPromised = new Promise(resolve => {
 		request( options, (err, rsp, body) => { return resolve(body) } )
 	})
+	return await dataPromised.then( (data) => { return data } )
 }
 
-expressApp.get( [ '/0' , '/exit' ] , ( request , response ) => {
-	//	
-	console.log( colors.brightRed( 'EXIT!' ) )
-	process.exit(0)
-} )
+expressApp.get( '/sync' , ( req, res ) => {
+	//
+	const uri = 'http://localhost:2000'
+	let msg = new Date( ).toISOString( ) + ' / ' 
+	return new Promise(resolve => {
+		request( uri, (err, rsp, body) => { return resolve(body) } )
+	})
+	.then((result) => { res.send( msg + result ) } )
+} ) 
