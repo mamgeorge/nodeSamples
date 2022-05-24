@@ -34,8 +34,7 @@ expressApp.get( '/' , ( req, res ) => {
 	//
 	// https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html
 	let msg = new Date( ).toISOString( ) + ' / ' 
-	let dataAwaited = getDataPromised()
-		dataAwaited.then((inf) => { res.send( msg + inf ) } )
+	getDataPromised().then((data) => { res.send( msg + data ) } )
 } ) 
 
 const getDataPromised = async ( ) => { 
