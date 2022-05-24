@@ -14,7 +14,10 @@ expressApp.use( express.static( path.join( __dirname, '/samples/xtra' ) ) )
 expressApp.use( express.static( path.join( __dirname, '../images' ) ) )
 expressApp.use( express.static( path.join( __dirname, '/xtra' ) ) )
 
-const options = { uri: 'http://localhost:2000', // the rest of this is not needed
+const STYLE = '<style>body { font-family: verdana; }</style>'
+const RETURN = '<br /><a href = "/">return</a><br />'
+const options = { 
+	uri: 'http://localhost:2000', // the rest of this is not needed
 	hostname: 'localhost', 
 	port: 2000, 
 	path: '/', 
@@ -26,11 +29,26 @@ const options = { uri: 'http://localhost:2000', // the rest of this is not neede
 		'Accept-Charset': 'UTF-8'
 	} 
 }
+let HEADER = STYLE + new Date( ).toISOString( ) + '<br/>\n'
 
 // server
 const varServer = expressApp.listen( PORT , ( )=> { console.log( 'expresso api' ) } )
 
-expressApp.get( '/' , ( req, res ) => { // test
+expressApp.get( [ '/', '/home' ] , ( req, res ) => { // test
+	//
+	let msg = HEADER + 'GET: ' 
+		+ '<br /><a href = "/home" > home </a>'	
+		+ '<br /><a href = "/sync" > sync </a>'
+		+ '<br /><a href = "/async" > async (plain)</a>'
+		+ '<br /><a href = "/asyncs" > asyncs </a>'
+		+ '<br /><a href = "/test" > test </a>'
+
+	res.header( 'Content-Type', 'text/html' )
+	res.end(  msg )
+	console.log( new Date( ).toISOString( ) )
+} ) 
+
+expressApp.get( '/test' , ( req, res ) => { // test
 	//
 	let msg = new Date( ).toISOString( ) + ' / ' 
 	const getDataPromised = async ( ) => { 
@@ -39,14 +57,31 @@ expressApp.get( '/' , ( req, res ) => { // test
 		})
 		return await dataPromised.then( (data) => { return data } )
 	}
-	getDataPromised().then((data) => { res.send( msg + data ) } )
+	getDataPromised().then((data) => { res.send( HEADER + data + RETURN ) } )
 } ) 
 
+expressApp.get( '/sync' , ( req, res ) => {
+	//
+	const uri = 'http://localhost:2000'
+	return new Promise(resolve => {
+		request( uri, (err, rsp, body) => { return resolve(body) } )
+	})
+	.then((data) => { res.send( HEADER + data + RETURN ) } )
+} ) 
+
+expressApp.get( '/async' , ( req, res ) => { // test
+	//
+	const getDataPromised = async ( ) => { 
+		let dataPromised = new Promise(resolve => {
+			request( options, (err, rsp, body) => { return resolve(body) } )
+		})
+		return await dataPromised.then( (data) => { return data } )
+	}
+	getDataPromised().then((data) => { res.send( data ) } )
+} ) 
 
 expressApp.get( '/asyncs' , ( req, res ) => {
-	//
-	let msg = new Date( ).toISOString( ) + ' / ' 
-	getDataPromised().then((data) => { res.send( msg + data ) } )
+	getDataPromised().then((data) => { res.send( HEADER + data + RETURN ) } )
 } ) 
 
 const getDataPromised = async ( ) => { 
@@ -55,25 +90,3 @@ const getDataPromised = async ( ) => {
 	})
 	return await dataPromised.then( (data) => { return data } )
 }
-
-expressApp.get( '/async' , ( req, res ) => { // test
-	//
-	let msg = new Date( ).toISOString( ) + ' / ' 
-	const getDataPromised = async ( ) => { 
-		let dataPromised = new Promise(resolve => {
-			request( options, (err, rsp, body) => { return resolve(body) } )
-		})
-		return await dataPromised.then( (data) => { return data } )
-	}
-	getDataPromised().then((data) => { res.send( msg + data ) } )
-} ) 
-
-expressApp.get( '/sync' , ( req, res ) => {
-	//
-	const uri = 'http://localhost:2000'
-	let msg = new Date( ).toISOString( ) + ' / ' 
-	return new Promise(resolve => {
-		request( uri, (err, rsp, body) => { return resolve(body) } )
-	})
-	.then((result) => { res.send( msg + result ) } )
-} ) 
