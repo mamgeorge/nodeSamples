@@ -30,9 +30,21 @@ const options = { uri: 'http://localhost:2000', // the rest of this is not neede
 // server
 const varServer = expressApp.listen( PORT , ( )=> { console.log( 'expresso api' ) } )
 
-expressApp.get( '/' , ( req, res ) => {
+expressApp.get( '/' , ( req, res ) => { // test
 	//
-	// https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html
+	let msg = new Date( ).toISOString( ) + ' / ' 
+	const getDataPromised = async ( ) => { 
+		let dataPromised = new Promise(resolve => {
+			request( options, (err, rsp, body) => { return resolve(body) } )
+		})
+		return await dataPromised.then( (data) => { return data } )
+	}
+	getDataPromised().then((data) => { res.send( msg + data ) } )
+} ) 
+
+
+expressApp.get( '/asyncs' , ( req, res ) => {
+	//
 	let msg = new Date( ).toISOString( ) + ' / ' 
 	getDataPromised().then((data) => { res.send( msg + data ) } )
 } ) 
@@ -43,6 +55,18 @@ const getDataPromised = async ( ) => {
 	})
 	return await dataPromised.then( (data) => { return data } )
 }
+
+expressApp.get( '/async' , ( req, res ) => { // test
+	//
+	let msg = new Date( ).toISOString( ) + ' / ' 
+	const getDataPromised = async ( ) => { 
+		let dataPromised = new Promise(resolve => {
+			request( options, (err, rsp, body) => { return resolve(body) } )
+		})
+		return await dataPromised.then( (data) => { return data } )
+	}
+	getDataPromised().then((data) => { res.send( msg + data ) } )
+} ) 
 
 expressApp.get( '/sync' , ( req, res ) => {
 	//
