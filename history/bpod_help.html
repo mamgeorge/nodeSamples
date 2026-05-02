@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>BPOD Help</title>
+
+<meta charset="utf-8">
+<meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link type = "image/x-icon" rel = "shortcut icon" href = "./images/redLogo.png" />
+<link rel = "apple-touch-icon" href = "./images/redLogo.png" />
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>document.writeln("<script type='text/javascript' src='bpod_img.js?v=" + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_txt.js?v=" + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_ctrl.js?v = " + Date.now() + "'><\/script>");</script>
+
+<script>
+const bookChaps = ' GEN 50, EXO 40, LEV 27, NUM 36, DEU 34, JOS 24, JDG 21, RTH 04, 1SA 31, 2SA 24, 1KI 22, 2KI 25, 1CH 29, 2CH 36, EZR 10, NEH 13, EST 10, JOB 42, PSA 150, PRO 31, ECC 12, SON 08, ISA 66, JER 52, LAM 05, EZE 48, DAN 12, HOS 14, JOE 03, AMO 09, OBA 01, JON 04, MIC 07, NAH 03, HAB 03, ZEP 03, HAG 02, ZEC 14, MAL 04, MAT 28, MAR 16, LUK 24, JOH 21, ACT 28, ROM 16, 1CO 16, 2CO 13, GAL 06, EPH 06, PHI 04, COL 04, 1TH 05, 2TH 03, 1TI 06, 2TI 04, TIT 03, PHM 01, HEB 13, JAM 05, 1PE 05, 1PE 03, 1JO 05, 2JO 01, 3JO 01, JUD 01, REV 22'.split(",");
+const bookNames = 'Gen Exo Lev Num Deu Josh Judg Ruth 1Sam 2Sam 1Kin 2Kin 1Chr 2Chr Ezr Neh Est Job Psa Pro Ecc Son Isa Jer Lam Eze Dan Hos Joel Amos Oba Jon Mic Nah Hab Zeph Hag Zech Mal Matt Mark Luke John Acts Rom 1Cor 2Cor Gal Eph Phil Col 1The 2The 1Tim 2Tim Titu Phm Heb Jam 1Pet 2Pet 1Jhn 2Jhn 3Jhn Jude Rev'.split(" ");
+
+const singleItm1 = '<a class = "sum" target = "_blank" href = "bpod.html?itm=l1_010617_4">or select one</a>'
+const singleItm2 = '<a class = "sum" target = "_blank" href = "bpod.html?itm=l1_011101_14">or select one</a>'
+
+const jsons = {
+
+	sources : [
+
+		{ link: "biblearchaeology.org"				, title: "ABR"		, desc: "Associates for Biblical Reaearch"	},
+		{ link: "bible.ca"							, title: "IBW"		, desc: "Interactive Bible Website (Rudd)"	},
+		{ link: "bibleandarchaeology.blogspot.com"	, title: "BAOM"		, desc: "Bible Archaeology Online Museum"	},
+		{ link: "biblearchaeologyreport.com"		, title: "BAR"		, desc: "Biblical Archaeological Report"	},
+		{ link: "www.biblehistory.net"				, title: "BBH"		, desc: "Bible Believers History"			},
+		{ link: "armstronginstitute.org"			, title: "AIBA"		, desc: "Armstrong Institute Archaeology"	},
+		{ link: "biblicalarchaeology.org"			, title: "BAS"		, desc: "Biblical Archaeological Society"	},
+		{ link: "bibleplaces.com"					, title: "Places"	, desc: "Bible_Places"						},
+		{ link: "en.wikipedia.org/wiki/Timeline_of_Jerusalem" , title: "Wiki" , desc: "ex: Jerusalem Timeline"		},
+	],
+
+	formal : [
+
+		{ link: "www.armep.gwi.uni-muenchen.de/"			, title: "ARMEP"			, desc: "Ancient Records of Near Eastern Polities"	},
+		{ link: "www.britishmuseum.org/"					, title: "BM"				, desc: "British Museum"							},
+		{ link: "aicuneiform.com/"							, title: "Cun AICC"			, desc: "AI Cuneiform Corpus"						},
+		{ link: "cdli.earth/"								, title: "Cun CDLI"			, desc: "Cuneiform Digital Library Initiative"		},
+		{ link: "etana.org/home"							, title: "Cun ETANA"		, desc: "ABZU (ANE), eTACT (Akkadian)"				},
+		{ link: "etcsl.orinst.ox.ac.uk/"					, title: "Cun ETCSL"		, desc: "Electronic Text Corpus of Sumerian Literature"	},
+		{ link: "pyramidtextsonline.com/plan.html"			, title: "Egypt OLD"		, desc: "Egypt Old Kingdom, Pyramid Texts"			},
+		{ link: "www.attalus.org/egypt/chronological.html"	, title: "Egypt Late"		, desc: "Egypt Late Period  Texts"					},
+		{ link: "oracc.museum.upenn.edu/projectlist.html"	, title: "ORACC"			, desc: "Open Richly Annotated Cuneiform Corpus"	},
+		{ link: "oracc.museum.upenn.edu/aemw/amarna/pager"	, title: "ORACC AEMW"		, desc: "Amarna Tablets"							},
+		{ link: "oracc.museum.upenn.edu/ario/"				, title: "ORACC ARIO"		, desc: "Achaemenid Royal Inscriptions Online"		},
+		{ link: "oracc.museum.upenn.edu/riao/pager"			, title: "ORACC RIAO"		, desc: "Royal Inscriptions of Assyria Online"		},
+		{ link: "oracc.museum.upenn.edu/ribo/corpus"		, title: "ORACC RIBO"		, desc: "Royal Inscriptions of Babylonia Online"	},
+		{ link: "oracc.museum.upenn.edu/rinap/corpus/"		, title: "ORACC RINAP"		, desc: "Royal Inscriptions of the Neo-Assyrian Period"	},
+		{ link: "www.livius.org/sources/content/achaemenid-royal-inscriptions/"		, title: "Persian Texts"		, desc: "Persian Texts, Livius: Achaemenid"	},
+		{ link: "ctext.org/"								, title: "texts CText"		, desc: "Chinese Texts (Documents in Chinese)"		},
+		{ link: "www.jstor.org/action/showAdvancedSearch"	, title: "texts Jstor"		, desc: "History catalog; part of ITHAKA"			},
+		{ link: "www.livius.org/"							, title: "texts Livius"		, desc: "Ancient History catalog"					},
+		{ link: "www.perseus.tufts.edu/hopper/"				, title: "texts Perseus"	, desc: "Digital Library (Herodotus...)"			},
+		{ link: "www.schoyencollection.com/"				, title: "texts Schoyen"	, desc: "history catalog"							},
+		{ link: "www.ibiblio.org/catalog/items/search"		, title: "texts ibiblio"	, desc: "(aka SacredTexts, loc) mostly religious"	},
+	],
+
+	evidences : [
+
+		// #2 Exo 07:01 Ipuwer_Papyrus	>> #2 Exo 01:11 Exodus_Inscriptions
+		// #6 2Kin 17:03 Black_Obelisk	>> 2Kin 10:29 S3_Artifacts	>> #8 Son 03:10 Purple_Fabric / Psa 104:01 Aten_Hymn
+		{ grp: "Law",	big: "3", ref: "Gen 06:17",		desc : "World_Flood_Stories,	over 100 international accounts, " + singleItm1,	xtra: "UFN: Universal Flood Narrative, including over 18 from primary world cultures"	},
+		{ grp: "Law",	big: "x", ref: "Gen 11:01",		desc : "World_Babel_Stories,	from international narratives, " + singleItm2,		xtra: "USN: Universal Speech Narrative, including over 17 from primary world cultures"	},
+		{ grp: "Law",	big: "0", ref: "Exo 01:11",		desc : "Exodus_Inscriptions,	includes 5 manuscripts",							xtra: "including: Ipuwer, Manetho, Tacitus, Rekhmire_BrickBuilders, Brooklyn_Slavelist"	},
+		{ grp: "Hist",	big: "0", ref: "Josh 10:01",	desc : "Amarna_Tablets,			over 380 tablets, 64 mention Habiru",				xtra: "including: EA 019, 161, 286, 287, 243, 228, 086, 365..." },
+		{ grp: "Hist",	big: "0", ref: "1Sam 16:13",	desc : "TellDan_Stele,			references Biblical people including king David",	xtra: "including references to: Hadad, Jeroham, Ahab, Ahaziah, David..." },
+		{ grp: "Hist",	big: "x", ref: "1Kin 14:25",	desc : "Bubastis_Portal,		lists over 40 Isralite towns",						xtra: "including over 150 cities written in a name ring for Shoshenq_1..." },
+		{ grp: "Hist",	big: "0", ref: "2Kin 03:04",	desc : "Mesha_Stele,			multiple references to Biblical culture",			xtra: "including references to: Mesha, Chemosh, Dibon, Israel, Omri, Ahab, Joram, Ahaziah, Gad, Jehovah..." },
+		{ grp: "Hist",	big: "x", ref: "2Kin 10:29",	desc : "S3_Artifacts,			over 10 artifacts with many Biblical figures",		xtra: "including references to: Israel, Jehu, Omri, BenHadad 2, Hazael, and other kings and kingdoms..." },
+		{ grp: "Hist",	big: "0", ref: "2Kin 18:13",	desc : "Taylor_Prism,			over 75 Biblical figures critically confirmed",		xtra: "including references to: Judah, Hezekiah, Jerusalem Seige, Sennacherib, Ashdod, Ekron, Gaza..." },
+		{ grp: "Hist",	big: "3", ref: "2Kin 19:35",	desc : "Sennacheribs_Army,		testimonies to the destruction",					xtra: "including references from Herodotus, Berossus" },
+		{ grp: "Hist",	big: "x", ref: "2Kin 24:01",	desc : "Babylon_Chronicles,		7 tablets including Jehoiachin_Ration",				xtra: "including references to: Jehoiachin, Jerusalem Seige, Ration, and Nebuchadnezzar" },
+		{ grp: "Hist",	big: "x", ref: "Neh 12:32",		desc : "Lachish_Ostraca,		8 ostraca with 18 people listed in Ezra & Neh",		xtra: "including references to: Jehovah, Elnatan, Hodaviah, Tobiah, Uriah, Shallum, Azekah" },
+		{ grp: "Poet",	big: "x", ref: "Job 01:15",		desc : "Sabean_Artifacts,		attestation from Sabeans cities, inscriptions",		xtra: "Revealing the language and artifacts of the Sabean kingdom" },
+		{ grp: "Poet",	big: "x", ref: "Psa 104:01",	desc : "Aten_Hymn,				attestation to Egypt/Israel interaction",			xtra: "Revealing the close relationship between Egypt & Israel, and dating the Psalm" },
+		{ grp: "Poet",	big: "5", ref: "Son 03:10",		desc : "Purple_Fabric,			attestation to unique fabrics",						xtra: "Revealing samples of material described at the same place, time, and type." },
+		{ grp: "Prph",	big: "x", ref: "Jer 20:01",		desc : "Jerusalem_Seals,		over 250 bulla in Jeremiah clutch",					xtra: "Revealing attestation to scores of Biblical characters, minor and major" },
+		{ grp: "Prph",	big: "x", ref: "Jer 52:28",		desc : "AlYahudu_Tablets,		over 200 tablets showing Exile finances",			xtra: "named after the town Al Yahudu (town of Judah) in the tablets" },
+		{ grp: "Prph",	big: "5", ref: "Dan 05:01",		desc : "Nabonidas_Cylinders,	five Cylinders referencing Prince Belshazzar",		xtra: "including: BM 091128 091125, 091124, 104738, 091109" },
+		{ grp: "New",	big: "3", ref: "Matt 28:06",	desc : "Jesus_Narratives,		multiple records within a lifetime of Christ",		xtra: "including: Josephus, Tacitus, Phlegon, Thallus, Serapion" },
+		{ grp: "New",	big: "x", ref: "Acts 17:23",	desc : "Altar_Unknown_God,		attestation to Pauls observation",					xtra: "including testimony from: PseudoLucian, Apollodorus, Philostratus, Pausanias " },
+		{ grp: "New",	big: "x", ref: "Rev 01:04",		desc : "Revelation_Churches,	7 sites with ruins from every church",				xtra: "including: Ephesus, Smyrna, Pergamon, Thyatira, Sardis, Philadelphia, Laodicea"	},
+	]
+};
+
+function getTxt( ref ) {
+
+	location.href = 'bpod.html?ref=' + ref
+	location.target = '_blank';
+}
+
+function getImgFromVerse( ref ) {
+
+	let imgName = '';
+
+	if (ref == null || ref == '' || ref == 'Gen 06:17' ) {
+
+		// l1_010617_4, 01_Gen0617_Flood3_DelugeTablet_Utnapis
+		ref = 'Gen0617_Flood3_DelugeTablet'
+	}
+
+	ref = ref.replaceAll(' ','').replaceAll(':','');
+	for ( let ictr = 0; ictr < pictures.length; ictr++ ) {
+
+		if ( pictures[ictr][ 1 ].includes( ref ) ) { imgName = pictures[ictr][ 1 ]; }
+	}
+	return imgName;
+}
+
+function setSources( ) {
+
+	let txtSources = '<table  style = "margin-left: 40px;">'
+	for(let ictr = 0; ictr < jsons.sources.length; ictr++) {
+
+		txtSources += '<tr onclick = "window.open( \'https://' + jsons.sources[ictr].link +'\' , \'_blank\' );" >'
+			+ '<th class = "tan">' + jsons.sources[ictr].title + '</th>'
+			+ '<td class = "ton" style = "color: blue;">' + jsons.sources[ictr].desc + '</td>'
+			+ '</tr>';
+	}
+	txtSources += '</table>'
+	document.getElementById('linkSources').innerHTML = txtSources;
+
+	txtSources = '<table  style = "margin-left: 40px;">'
+	for(let ictr = 0; ictr < jsons.formal.length; ictr++) {
+
+		txtSources += '<tr onclick = "window.open( \'https://' + jsons.formal[ictr].link +'\' , \'_blank\' );" >'
+			+ '<th class = "tan">' + jsons.formal[ictr].title + '</th>'
+			+ '<td class = "ton" style = "color: blue;">' + jsons.formal[ictr].desc + '</td>'
+			+ '</tr>';
+	}
+	txtSources += '</table>'
+	document.getElementById('formalSources').innerHTML = txtSources;
+}
+
+function setEvidences( ) {
+
+	let txt03 = ''
+	let txt05 = ''
+	let txt10 = ''
+	let txt20 = ''
+	let actr=0; bctr=0; cctr=0; dctr=0;
+	for(let ictr = 0; ictr < jsons.evidences.length; ictr++) {
+
+		let descrip = jsons.evidences[ictr].desc
+		let descInt = descrip.indexOf("\t"); // be careful! not using spaces as separator!
+		let descInf = '<b>' + descrip.substr(0, descInt ) + '</b> ' + descrip.substr(descInt)
+		let imgName = getImgFromVerse(jsons.evidences[ictr].ref)
+		let ipicThm = baseurl + '/images_bible/' + imgName + '.jpg'
+		let clinker = jsons.evidences[ictr].ref
+
+		let txtEvidences = ''
+			+ '<label style = "width: 30px;" >' + jsons.evidences[ictr].grp + '</label> '
+			+ '<a class = "sum" onclick = "getTxt(\'' + clinker + '\');" '
+			+ 'title = "' + jsons.evidences[ictr].xtra + '" > '
+			+ '<img class = "img-thumbnail ico" src = "' + ipicThm + '" /> '
+			+ jsons.evidences[ictr].ref + ' '
+			+ '</a> &nbsp;'
+			+ descInf
+			+ '</li></ul>';
+
+		let val = jsons.evidences[ictr].big;
+		if ( val=="3" )							{ txt03 += '<ul><li class = "">' + (++actr).toString().padStart(2,'0') + ' ' + txtEvidences; }
+		if ( val=="5" || val=="3" )				{ txt05 += '<ul><li class = "">' + (++bctr).toString().padStart(2,'0') + ' ' + txtEvidences; }
+		if ( val=="0" || val=="5" || val=="3" )	{ txt10 += '<ul><li class = "">' + (++cctr).toString().padStart(2,'0') + ' ' + txtEvidences; }
+		if (true)								{ txt20 += '<ul><li class = "">' + (++dctr).toString().padStart(2,'0') + ' ' + txtEvidences; }
+	}
+	document.getElementById('evidences03').innerHTML = txt03;
+	document.getElementById('evidences05').innerHTML = txt05;
+	document.getElementById('evidences10').innerHTML = txt10;
+	document.getElementById('evidences20').innerHTML = txt20;
+}
+
+function setStatsH( ) {
+
+	// "https://www.chartjs.org/docs/latest/"
+
+	let tnum = 0, bnum = 0, cnum = 0, dnum = 0, imgs = 0, chps = 0, perc = 0, blnc = 0
+
+	const labs =  bookNames
+
+    const r = 'rgba(255, 100, 100, 0.7)'
+    const y = 'rgba(255, 255, 100, 0.7)'
+    const g = 'rgba(100, 255, 100, 0.7)'
+    const b = 'rgba(100, 100, 255, 0.7)'
+    const p = 'rgba(255, 100, 255, 0.7)'
+
+	const bgclr = [ r,r,r,r,r, y,y,y,y,y,y,y,y,y,y,y,y, g,g,g,g,g, b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,
+		p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p ]
+
+	let perks = '';
+
+	for ( let ictr = 0; ictr < pictures.length - 1; ictr++ ) {
+
+		book = pictures[ictr][1].substring(0,6)
+		bnum = parseInt( pictures[ictr + 0][0].substring(3,5) );
+		cnum = parseInt( pictures[ictr + 1][0].substring(3,5) );
+		dnum = parseInt( ( pictures[ictr + 0][1].substring(0,2) ) );
+
+		if (bnum == cnum ) { ++tnum; } else {
+
+			imgs = (tnum + 1).toString().padStart(2, '0')
+			try { chps = bookChaps[ dnum - 1 ].substring(4) } catch(err) { console.log('setStatsH ERROR: ' + err  + ' / ' + ictr + ', ' + pictures[ictr + 0][1] + ', ' + dnum ) }
+			perc = (imgs/chps).toFixed(2);
+			blnc = Math.abs( ( 1 - (imgs/chps) ) ).toFixed(2)
+
+			if (perc > 1 ) { perc = 1 }
+
+			perks += perc + ' '
+			tnum = 0
+		}
+	}
+	perks = perks.split(" ")
+
+	const ctx = document.getElementById('statsh').getContext('2d');
+	const myChart = new Chart(ctx, {
+		type: 'bar',
+		data: { labels: labs,
+			datasets: [
+			{
+				label			: '', // [ 'Stats for ' + pictures.length + ' img/chap' ],
+				data			: perks,
+				backgroundColor	: bgclr,
+				borderColor		: [ 'rgba(000, 000, 000, 0.9)' ],
+				borderWidth		: 1
+			}]
+		},
+		options: { scales: { y: { beginAtZero: true } } }
+	});
+}
+
+function setStatsV( ) {
+
+	let txt = 'Statistics:<br/>'
+		+ '<div style = "font-family: Menlo, Monaco, Lucida Console, monospace;" >'
+		+ '&nbsp;&nbsp;&nbsp;&nbsp;'
+		+ '##book |img/chp | images / chapters'
+		+ '</div>'
+	let book = '', bars = '', sect = '⬛'
+	let tnum = 0, bnum = 0, cnum = 0, dnum = 0, imgs = 0, chps = 0, perc = 0, blnc = 0, percCtr = 0;
+
+	for ( let ictr = 0; ictr < pictures.length - 1; ictr++ ) {
+
+		try {
+			// ░ ▒ ▓ ▬ 🟥 🟧 🟨 🟩 🟦 🟪 🟫 ⬛ ⬜
+			if (pictures[ictr][1].substring(0,6).startsWith('DUP')) {  }
+			else { book = pictures[ictr][1].substring(0,6) }
+
+			bnum = parseInt( pictures[ictr + 0][0].substring(3,5) );
+			cnum = parseInt( pictures[ictr + 1][0].substring(3,5) );
+			dnum = parseInt( ( pictures[ictr + 0][1].substring(0,2) ) );
+
+			if (bnum == cnum ) { ++tnum; } else {
+
+				imgs = (tnum + 1).toString().padStart(2, '0')
+				try { chps = bookChaps[ dnum - 1 ].substring(4) } catch(err) { console.log('setStatsV ERROR: ' + err  + ' / ' + ictr + ', ' + pictures[ictr + 0][0] ) }
+				perc = (imgs/chps).toFixed(2)
+				blnc = Math.abs( ( 1 - (imgs/chps) ) ).toFixed(2)
+
+				if (dnum >=  1 && dnum <=  5 ) { sect = '🟥' } // Law
+				if (dnum >=  6 && dnum <= 17 ) { sect = '🟨' } // Hist
+				if (dnum >= 18 && dnum <= 33 ) { sect = '🟩' } // Poet
+				if (dnum >= 23 && dnum <= 39 ) { sect = '🟦' } // Prop
+				if (dnum >= 40 && dnum <= 66 ) { sect = '🟪' } // Newt
+
+				if (chps != 150 ) { chps = chps + ' ' }
+				if (perc > 1 ) { bars = sect.repeat(10) } else
+				{ bars = sect.repeat( Math.ceil(perc*10) ) + '⬛'.repeat( Math.floor(blnc*10) ) }
+				txt += '<div class = "tab" style = "font-family: Menlo, Monaco, Lucida Console, monospace; '
+					+ 'font-size: 1em; line-height: .7; transform: scale(1, .6);" >'
+					+ book + ' | ' + imgs + '/' + chps + '| ' + bars + ' | ' + perc  + '</div>';
+				tnum = 0
+				// percCtr = percCtr + (imgs/chps)
+				percCtr = percCtr + parseInt( imgs )
+			}
+		}
+		catch(err) { console.log('setStatsV ERROR: ' + err + ' | book:' + book + ' | ictr:' + ictr + ' | bctr: ' + bctr) }
+	}
+	txt += '<br /><span class = "tab" />Total Images / Total Chapters: ' + (percCtr/1189*100).toFixed(2) + '%'
+	document.getElementById('statsv').innerHTML = txt;
+}
+
+function loader(callback) {
+
+	setTimeout( () => {
+
+		// needs a delay so scripts complete before actions from parent are made
+
+		setSources()
+		setEvidences()
+		setStatsH()
+		setStatsV()
+
+		callback();
+	}, 1000);
+}
+
+function scroll() {
+
+	if ( location.href.includes('#') ) {
+
+		let tmpi = location.href.indexOf('#') + 1
+		let tmps = location.href.substring(tmpi)
+		const targ = document.getElementById(tmps);
+		if(targ) {
+			//document.getElementById(tmps).scrollIntoView( { behavior: 'smooth', block: 'start' } )
+			document.getElementById(tmps).scrollTop = 0;
+		}
+	}
+}
+
+window.onload = function() { loader(); scroll() };
+
+</script>
+
+<style>
+body		{ position: relative; }
+button.main	{ width: 45px; border: 3px silver inset; border-radius: 10px; }
+fieldset	{ padding: 20px; }
+li			{ padding-left: 20px; }
+kbd			{ width: 55px; }
+quote		{ color: #a0d0a0; -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: black; }
+
+halfer		{ width: 50%; } 
+charter		{ width: 90%; margin: auto; }
+
+i	{ color: #4060f0; font-weight: bold; }
+x	{ color: #f0f020; -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: black; }
+z	{ background: -webkit-linear-gradient(0deg, red, orange, yellow, green, blue, indigo, violet);
+	background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;
+	-webkit-text-stroke-width: .5px; -webkit-text-stroke-color: black; }
+
+zq	{ background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet ); }
+.boxpad { margin-left:40px; }
+
+.ico	{ width: 50px; height: 40px; } .ico:hover { width: 200px; height: 200px; }
+.sect	{ padding: 70px 20px; }
+.tbs	{ padding-left: 40px; }
+.sum	{ text-decoration: none; }
+.tab	{ margin-left: 40px; }
+.tan	{ background-color: #e0e0d0; padding: 0px; border: 1px #d0d0c0 inset; padding-left: 10px; padding-right: 10px; }
+.ton	{ background-color: #f0f0e0; padding: 0px; border: 1px #e0e0d0 inset; padding-left: 10px; }
+
+.slct { font-weight: bold; color: #000000; -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: black;
+	animation-name: super; animation-duration: 1s; animation-direction: alternate; animation-iteration-count: infinite; }
+@keyframes super { from { color: #000000; } to { color: #ffff00; } }
+
+.dupe { font-weight: bold; color: #000000; -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: black;
+	animation-name: duper; animation-duration: 1s; animation-direction: alternate; animation-iteration-count: infinite; }
+@keyframes duper { from { color: #000000; } to { color: #f000f0; } }
+</style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0"><!-- class = "text-bg-dark" -->
+
+<nav class="navbar navbar-expand-sm bg-success navbar-success fixed-top"><div class="container-fluid"><ul class="navbar-nav">
+
+	<li class="nav-item" ><a class="nav-link text-white" href="bpod.html"		>BPOD!			</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q1purpose"		>Purpose		</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q2rationale"	>Rationale		</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q3articles"		>Articles		</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q4summaries"	>Summaries		</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q5buttons"		>Buttons		</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q6duplication"	>Duplication	</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q7improvements"	>Improvements	</a></li>
+	<li class="nav-item" ><a class="nav-link text-white" href="#q8contact"		>Contact		</a></li>
+
+</ul></div></nav>
+
+<div id = "q1purpose"		class="container-fluid sect" ><div class = "h3">🌞 The Purpose</div>
+	<br />
+	<h5>BPOD (Bible Picture of the Day) is a "Photo Album" of the Bible.</h5>
+	<b class = "tab">The Purpose of BPOD is to:</b>
+	<ul class = "tab">
+		<li>Colorfully show Bible Items such as: <i>Tablets, Scrolls, Seals, Statues, Structures,
+			Inscriptions, Coins, Cities, Pottery, Artifacts</i>, etc...</li>
+		<li>Accurately reveal, from Genesis to Revelation, Bible History
+			thru articles about documents, artifacts, and places..</li>
+		<li><b>Daily describe the remarkable connection of the scripture
+			to the observable evidences in the world</b>...</li>
+		<li>Creatively honor the Lord Jesus!</li>
+	</ul>
+
+	<br />
+	<h5>The site layout:</h5>
+		<div class = "tab">The main page contains a large image sequentially chosen based on the day of the year.
+		<br /><span class = "tbs" />At the right is a detail column with a '<b>reference</b>' and '<b>verse</b>' for this image.
+		<br /><span class = "tbs" />After this is a '<b>label</b>' identifying the image. Then there is a detailed '<b>description</b>' of the object.
+		<br /><span class = "tbs" />Finally, there is a '<b>significance</b>' section describing the connection of the object to the Bible and History.
+		<br /></div>
+
+	<br />At the left is a 'sequential' list of every object, and a 'rainbow Bar' for quick navigation.
+	<ul class = "tab">
+		<li>Clicking on the "<z>Rainbow Rectangle</z>" on the left acts as a quick guide</li>
+		<li>Red at the Top locates Genesis</li>
+		<li>Purple on the Bottom locates Revelation</li>
+		<li>every other color selects everything in between</li>
+	</ul>
+	<br />
+	<br />BPOD: ©2023 Martin George, All rights reserved.
+	</div>
+
+<div id = "q2rationale"		class="container-fluid sect" ><div class = "h3">🧠 The Rationale</div>
+	<br />
+	<h5>I believe the Bible alone is the Word of God.</h5>
+		<div class = "tab">A corollary to this is that we need to be in God’s Word daily.
+		<br />I believe this calling challenges most people because:</div>
+
+	<br /><b>#1 We often struggle with mature discipline.</b>
+	<br />
+		<div class = "tbs" />In my view, the best recourse to this is:
+		<ul>
+			<li>Praying to God for motivation and healthy boundaries for reading.</li>
+			<li>Teaming up with other Christians to discuss what His Spirit reveals to us.</li>
+			<li>Seeing the colorful and factual nature of the Book we are learning from. </li>
+			<li>Tools like a BRP (Bible Reading Plan) help the long term study for the Bible.</li>
+		</ul>
+		</div>
+
+	<b>#2 We often struggle with rational faith.</b>
+	<br />
+		<div class = "tbs" >In my view, the best recourse to this is:
+		<ul>
+			<li>Recognizing hesitation reveals doubt.</li>
+			<li>Confessing, praying, and researching the doubts with others.</li>
+			<li>Using tools like BPOD (Bible Picture of the Day) to see the accuracy of the Bible.</li>
+		</ul>
+		</div>
+	<pre><i>
+	I should point out that I have seen people who simply will not
+	consider the evidence, despite their claims to "science" or objectivity.
+	I do not believe more data is relevant to that scenario.
+	Even Psalms say those who choose not to believe in God hide the evidence.
+	See: Psa 10:4,11; Psa 14:1,4; Psa 53:1,4; Rom 1:20.	</i></pre>
+
+	<fieldset><legend>Content</legend>
+	This website is a collection of images that I believe will show the historical accuracy of the Bible.
+	Most articles contain an Archaeological image and some paragraph about the research or History of the object.
+	About 5% to 10% of the descriptions contain additional detail.
+	Another handful of images are Charts or even General information.
+	I felt this addition contributed to the overall experience of understanding the overall Bible message.
+	<br />
+	<br />This website make an appeal to history as "science".
+	In this context, we define science as "Observations that is Repeatable and Testable".
+	Science with this definition can not address the past, especially prehistory, since this past is not a part of
+	"Observations that are Repeatable and Testable".
+	A common response to this is to use a different or generalized definitions of science that includes
+	"Interpretations that are Repeatable and Testable".
+	<mark>Most people fail to distinguish between science that is "observable" and science that requires "interpretation". </mark>
+	This distinction is part of what may generally be called the "Demarcation Problem".
+	Another term for this is the "Inherent Limitation of Observation",
+	which applies (in different measure) to all sciences.
+	It is not the purpose of this website to define or resolve that dilemma.
+	</fieldset>
+
+	<fieldset><legend>Limitations</legend>
+	For our purposes, we may choose to see History and Archaeology like a Photo Album of a vacation.
+	There are enough photos to substantiate the claims for the trip.
+	The photos help us visualize the details of the experiences.
+	While some may claim to doubt what they can not see,
+	the point of this collection is to allow for a generalized understanding of that which we cannot see.
+	<br />
+	<br />This analogy leads to another question: What constitutes a legitimate evidence?
+	If you took a trip to China, and took a photo of a "Terracotta Warrior",
+	that is evidence you were in Xian city of China. But evidence is not necessarily proof.
+	The picture could easily represent a copy of a statue that was located elsewhere.
+	Additionally, photos that you took today may have more significance with future discoveries,
+	both confirming or negating the claim from the picture.
+	One way to resolve this is to "weight" the evidence.
+	An image of the statue in the statue hall is far more "weighty" than an image of a single statue.
+	An image taken of you standing on top of the statue hall is directly testifying to your presences in Xian.
+	Other questions are relevent to this discussion: is the photographer reliable? When was it taken? etc.
+	Ideally, this site will be able to add "weights" to the images, but for now,
+	it is the sheer bulk of data that is the best selling point to the historiagraphy of the Bible.
+	<span id = "q2rationaleScience" />
+	</fieldset>
+
+	<fieldset><legend>Bible & Science</legend>
+	While BPOD attempts to focus on Archaeology, a handful of articles deal with the subject of Science.
+	These are mostly at the beginning of BPOD, and reflect a Biblical perspective of the Creation from Genesis.
+	This can be a thorny issue for some people, but I feel I can make a reasonable contribution to this debate
+	if I affirm my assumptions first.
+	<mark>At the heart of the conflict, in my view, is poorly applied definitions.</mark>
+	For our purposes we will recognize the Bible as Revelation, and Science as Observation.
+	<br />
+	<br /><mark>More specifically, I take the position that the Bible is the Word of God.
+	I feel this belief is supported by the Historical Accuracy & Prophetical Reliability of the Bible.
+	I am taking the stand that the Bible is the Inerrant, Infallible Word of God;
+	and that it is the source of God's eternal Truth.
+	<br />
+	<br />I distinguish this from Science, which historically has many definitions.
+	For our purposes Science will be defined as "Observation that is Repeatable and Testable".
+	Another way of putting this is that Science is a Cultural and Social "Consensus of Observations".</mark>
+	<br />
+	<br />One major source of religious conflict is confusing the process with the application.
+	I feel an intelligent conversation requires distinquishing between "Science that is Directly Observable", versus
+	"Science that requires Basic Assumptions". In general, these distinctions play out in the interpretations of the past,
+	which are not directly "Observable, Repeatable and Testable", but require the interpretations of data (i.e. the fossil record).
+	This conflict is seen most pointedly seen in the statement of origins.
+	Genesis clearly states God created the Heavens and the Earth, all life, and all varieties of life in 6 days.
+	Science clearly claims the Cosmos was created over 13 billion years, life emerged spontaneously,
+	and varieties of life evolved from a common ancestor.
+	<br />
+	<br />I have discussed these positions at length elsewhere, and <mark>this is not the venue to reaffirm those points</mark>.
+	I recognize that Religiously and Scientifically there are a million variations for these interpretations.
+	One of the most common attempts at a middle ground is simply to assume when the Bible makes a statement
+	that is NOT accepted Scientifically, then the passage is allegorical.
+	This is usually assumed for about 15 chapters, ususally Gen 1-11, and Job 38-41.
+	Note that these 15 chapters cover about 1% out of 1189 chapters of the Bible as a whole.
+	For simplicity's sake, I limit the BPOD articles to address what God has actually said,
+	with acknowledgement of scientific data that has the least amount of assumptions.
+	<br />
+	<br />I do not expect to convince anyone with alternate views.
+	My main goal is to show WHAT the Bible says.
+	<mark>I believe we should humbly submit to Gods Word, and that Science is a gift that helps us to see His World.
+	I believe Eternal Revelation can never be ultimately validated by Changeable Interpretations of Consensual Observation.</mark>
+	I also believe Changeable Interpretations of Observation may not be able to be validated by Scripture until all things are known.
+	</fieldset>
+
+	<fieldset><legend>Formats</legend>
+	Lastly, because of the personal time I have put into this research,
+	you may notice some unconventional renderings of data.
+	For example, I often repeatedly describe kings by date, location, dynasty, number, name, and alternates.
+	I have come to do this to help prevent the confusion that easily occurs when comparing similar names or locations,
+	such as the many cities of "Aphek" or of the many kings named "Darius".
+	Another "peculiar" convention of mine is the insistence on rendering dates and locations in a specific format.
+	For example:
+	<br />-0004 BC +0033 AD Mesopotamia, Israel / Jesus teaches and heals before dying and rising alive.
+	<br />
+	<br />While these conventionalities are occasionally unneeded,
+	I feel that overall they help link often unfamiliar data between timeframes, locations, spellings, and scope.
+	If this is cumbersome to you, please be patient and just "bleep" over that info.
+	I feel that those who, in the long run, wish to connect the dots between a large scope of information
+	will find these conventions quite helpful!
+	</fieldset>
+
+	<fieldset><legend>Conventions</legend>
+	Another important perspective I feel bears mentioning.
+	It appears to me that most people do not have a framework for approaching history.
+	Yet, As one man put it, "He who will study the Bible will become a student of History".
+	For those of us desiring to communicate truth (in detail), it is necessary to have some basic starting points.
+	In my own search for truth, I was delighted to study more than Biblical History...
+	That investment has resulted in the approach I call "Millenial Posts" on "HAMICE".
+	<br /><br />• "Millenial Posts" was a strategy employed by historians of the 1700's
+	where history was grouped by millenia (one thousand year blocks of time).
+	This is arbitrary, of course, but all science use arbitrary characteristics for classification.
+	It is important to note millenial posts do not define history, but offer a starting point and tool to organize.
+	<br /><br />• "HAMICE" refers to primary Cultures, specifically:
+	Hebrews (sometimes Canaan), Africans (often Egypt), Mesopotamia (sometimes called the Levant, or Ancient Near East),
+	India, China, and Europe.
+	When it is necessary to go beyound this, I usually add what i call the "A5":
+	America North, America Central, Americal South, Australia, Antartica.
+	<br /><br />These conventions allow a starting point for context.
+	Those who are weak in History can quickly get a scope for the range of time by considering Millenial Posts.
+	Those who are weak in Geography can quickly get a scope for the range of locations by considering HAMICE.
+	Those who are strong in these subjects will benefit with a rational, consistent, and easily identifiable scope
+	to facilitate communicating to others.
+	Remember... everyone is on a Learning Journey, and the Bible is for Everyone!
+	</fieldset>
+
+</div>
+
+<div id = "q3articles"		class="container-fluid sect" ><div class = "h3">✍ Articles Include...</div>
+	<br />
+	<h5>All Articles include: Item, Reference, Verse, Label, Description, Significance; where:</h5>
+
+	<ul><li><b>Item:</b> The item includes a reference number, and a generic item name</li></ul>
+	<ul><li><b>Verse:</b> This is the Bible Verse, and it is clickable to get the Chapter.
+		<br /><span class = "tbs" />The Speaker icon takes you to the Chapter reading.
+		<br /><span class = "tbs" />The Verses do not match up to a BRP (Bible Reading Plan).
+		They are in the order of Scripture.
+		</li></ul>
+	<ul><li><b>Label:</b> The label is a meaningfully descriptive title.
+		<br /><span class = "tbs" />The topics include: <i>Tablets, Scrolls, Seals, Statues, Structures,
+		Inscriptions, Coins, Cities, Pottery, Artifacts, etc...</i>
+		</li></ul>
+	<ul><li><b>Description & Sources:</b>
+		<br /><span class = "tbs" />You can click <b>[ SHOW LESS ]</b> or <b>[ SHOW MORE ]</b> to control the amount of detail.
+		<br /><span class = "tbs" />Some links have additional information by hovering over them.
+		<br /><span class = "tbs" />Some links have additional information by hovering over them.
+		<br /><span class = "tbs" />Other colors are used to help organize information; for example <quote>green</quote> usually refers to quoted information.
+		<br />
+		<br /><span class = "tbs" /><b>General Sources, a Partial List</b>:		<div id  = "linkSources" ></div>
+		<br /><span class = "tbs" /><b>Additional Sources, a Partial List</b>:	<div id  = "formalSources" ></div>
+		</li></ul>
+	<ul><li><b>Significance:</b> The significance is a conclusion about the image or article.</li></ul>
+		<span class = "tbs" />In general it summarized how the verse is supported by the image and text.
+
+<div id = "q4summaries"		class="container-fluid sect" ><div class = "h3">🏺 Evidences Summary (Shortcut!)</div>
+	<br />
+	<h5>An Evidences Summary is below:</h5>
+	<fieldset>We can acknowledge from the bulk of historical evidences that the Bible is a historical book.
+	<br />In fact, there are so many evidences, it is difficult to filter out a select set of important representatives.
+	<br />That is what this section is for! </fieldset>
+
+	<h5>Big3: We can start by examining 3:</h5>						<div id  = "evidences03" ></div>
+
+	<br /><h5>Big5: If opportunity permits, we can look at 5:</h5>	<div id  = "evidences05" ></div>
+
+	<br /><h5>Big10: To continue, we can look at 10:</h5>			<div id  = "evidences10" ></div>
+
+	<br /><h5>Big20_Groups: This is a list of 20 groups <b>(NOT items!)</b> of evidences:</h5><div id  = "evidences20" ></div>
+	</div>
+
+<div id = "q5buttons"		class="container-fluid sect" ><div class = "h3">➡️ Button Navigation</div>
+	<br />
+	<h5>Button Navigation is below:</h5>
+	<div class = "tbs">
+	<table class="table table-hover halfer" >
+	<thead><tr><th>buttons </th><th>description </th></tr></thead>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-success"	> &lt;&lt;&nbsp;	</kbd></td>	<td>Reverses the Images 10% of total.	</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-success"	> &nbsp;&lt;&nbsp;	</kbd></td>	<td>Reverses the Image one frame.		</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-success"	> &nbsp;&gt;&nbsp;	</kbd></td>	<td>Advances the Image one frame.		</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-success"	> &gt;&gt;&nbsp;	</kbd></td>	<td>Advances the Images 10% of total.	</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-info"		> BEG				</kbd></td>	<td>takes you to Genesis.				</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-info"		> END				</kbd></td>	<td>takes you to Revelation.			</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-info"		> PRO				</kbd></td>	<td>adjusts the Image proportionally, for a correct perspective.	</td></tr>
+	<tr><td><kbd class = "btn btn-sm btn-block main btn-info"		> SUM				</kbd></td>	<td>presents a clickable summary of all the images.
+		<br />Note that Duplicate images blink <span class = "dupe">Purple</span> in the Summary View.
+		<br />Note that Selected  images blink <span class = "slct">Yellow</span> in the Summary View.
+		</td></tr>
+	</table></div>
+	<br />At the right of the navigation bar there is an "Search" box for entering search text.
+	<br />A Search is NOT case sensitive, and (for now) only searches within the descriptions.
+	<br />A Search MAY be started by pressing Enter; or you may "click" on the Search button.
+	<br />If there is more than one result, you are shown the list of related scripture.
+	<br />Of course, other functions are suspended during a search.
+	<br />Note that some scriptures have more than one article; these are alternate analysis or views of the item.
+</div>
+
+<div id = "q6duplication"	class="container-fluid sect" ><div class = "h3">👯 Handling Duplication</div>
+	<br />
+	<h5>A note about Duplication...</h5>
+		<div class = "tbs">
+		<br />There are some "mirror" books in the Bible that cover similar events.
+		<br />The main examples include:
+		<ul>
+			<li />details shared between 2_Samuel & 1_Chronicles
+			<li />details shared between 1&2 Kings & 2_Chronicles
+			<li />details shared between the History with the Prophets
+			<li />details shared within the 4 Gospels
+			<li />details shared within Acts and the Epistles
+		</ul>
+		<br />Because of this overlap, some duplication of events is inevitable.
+			<ul>
+				<li />Currently, the Duplicate images blink <span class = "dupe">Purple</span> in the summary view.
+			</ul>	
+		<br /><mark>In general, the earlier books usually have the main detail (and charts),
+		<br />while the later references include an alternate image or item of limited focus.</mark>
+		<br /><br />
+		</div>
+
+	<h5>And now some Statistics</h5>
+		<div class = "tbs">
+		<br />This section includes data to visualize the distribution of images for this project.
+		<br />The images only represent data for information that is visually applicable.
+		<br />In reality archaeological images are not spread uniformly, (as they are dependent on available discovery).
+		<br />Note: Counts are off for a few until the chapters for last duplicates issue are resolved.
+		<br /><br />
+		</div>
+
+	<b><u>This chart shows you the number of images per book chapters</u></b>:
+
+			<div class="chart-container charter" ><canvas id="statsh" ></canvas></div>
+<!--
+		<b><u>And this chart also shows images per chapters, but includes more details</u></b>:
+
+			<div id  = "statsv" ></div>
+-->
+</div>
+
+<div id = "q7improvements"	class="container-fluid sect" ><div class = "h3">⏳ Improvements...</div>
+	<br />
+	<h5>Eventually, I would like to include these improvements:</h5>
+
+	<ul><li>Coverage: Continued refinement for new discoveries, better pictures, clearer evidences.</li></ul>
+	<ul><li>Weight: Evidence_Weight is a high level evaluation of the relative value.
+		<fieldset class = "boxpad" ><i>
+			Weight could be ranked as "low", "medium", or "high".
+			<br />Low weighted items would be included for interest, context, and clarity,
+			<br />and are info not specifically evidential.
+		</i></fieldset>
+		</li></ul>
+	<ul><li>Citation: more complete documentation to sources for information.
+		<fieldset class = "boxpad" >
+		• References from ancient writers:
+		like Manetho, Herodotus, Tacitus, Josephus, are usually used.
+		<br />I already do this in most cases, but there are some that are not fully referenced.
+
+		<br />
+		<br />• I write my own descriptions now but would like to add references
+			for claims, conclusions, or resource sites.
+		<br />For example, more formal connections or links to sources like:
+			BM, ETCSL, CTEXT, Livius, Jstor, ISTA, etc.
+		<br />Again, I already do this in many cases, but there are some that are not fully referenced.
+
+		<br />
+		<br />• Images were originally taken randomly from the web as I studied a subject.
+		<br />Citations from BiblePlaces, BM, Wiki, etc. would be a useful enhancement.
+
+		<br />
+		<br />• Verse references: a refinement to the use of verses for searches based on verse.
+		<br />Also a consistent representation of verses used in duplicate enties.
+		</fieldset>
+		</li></ul>
+	<ul><li>Navigation: links that process scripture and images for the summaries.
+		<fieldset class = "boxpad" >
+			Navigation relocated to invite summarization.
+			<br />Navigation to duplicate references may be helpful.
+		</fieldset>
+		</li></ul>
+	</div>
+
+<div id = "q8contact"		class="container-fluid sect" ><div class = "h3">🔴 Contact</div>
+
+<br /><h5>Home Site</h5>
+	<fieldset>
+	Website: <a class = "sum" target = "_blank" href = "mamgeorge.altervista.org" >mamgeorge.altervista.org</a>
+	<br /><span class = "tab" />Email: mamgeorge@yahoo.com
+	<br /><span class = "tab" />Martin George, 1315 Carbone Drive, Columbus Ohio, 43224
+
+	<br />
+	<br /><h5>Support</h5>
+
+	This website and its research represents an act of love and devotion.
+	<br /><span class = "tab" />It has required hundreds of hours of personal time.
+	<br /><span class = "tab" />It is not supported by any other ministeries.
+
+	<br /><br />
+	It is my sincere hope that this effort builds the faith and minds of brothers and sisters everywhere.
+	<br /><span class = "tab" />I believe, although it has cost me time and energy,
+	<br /><span class = "tab" />that this collection of evidences is a service that should always be free.
+	<br /><span class = "tab" />It can only be updated and improved when there are resources of time outside my conventional work.
+
+	<br /><br />
+	If you have found that this presentation and research is helpful to you or others,
+	<br /><span class = "tab" />and you would like to ensure its perpetuation and development,
+	<br /><span class = "tab" />please consider supporting the development of this site.
+</fieldset>
+</div>
+
+</body>
+</html>

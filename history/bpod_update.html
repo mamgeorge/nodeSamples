@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- ©2023 Martin George , All rights reserved.
+BPOD: Bible Picture of the Day.
+BPOD is a collection of Bible Pictures from Genesis to Revelation.
+Most images show an Archaeological context and include references, description, and significance.
+This data is part of establishing the Historical Accuracy of the Bible.
+-->
+
+<html lang="en" data-bs-theme="dark"><head><title>BPOD Updates!</title>
+<meta charset="utf-8">
+<meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>document.writeln("<script type='text/javascript' src='bpod_img.js?v = " + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_txt.js?v = " + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_ctrl.js?v = " + Date.now() + "'><\/script>");</script>
+
+<link type = "image/x-icon" rel = "shortcut icon" href = "./images/redLogo.png" />
+<link rel = "apple-touch-icon" href = "./images/redLogo.png" />
+
+<style>
+body { font-family: verdana; line-height: 1; }
+.vrt { width: 600px; height: 400px; }
+.desc { height: 200px; }
+.imgb { height: 95px; }
+</style>
+</head>
+
+<body>
+<!--div w3-include-html = "bpod_head.html"></div-->
+<div class="container-fluid p-2 bg-primary text-white text-center">
+<h3 onclick = "location.href = 'bpod.html'" >BPOD Updates!</h3></div>
+
+<div class="d-flex justify-content-center">
+<table class="table">
+<tr>
+<td class = "vrt">
+	<img class="img-fluid vrt" src="images/history.png" alt="Image" >
+	</td>
+<td>
+	<input type="text" class="form-control" placeholder="item"			>
+	<input type="text" class="form-control" placeholder="references"	>
+	<input type="text" class="form-control" placeholder="verse"			>
+	<input type="text" class="form-control" placeholder="label"			>
+	<input type="text" class="form-control desc" placeholder="description"	>
+	<input type="text" class="form-control" placeholder="significance"	>
+</td>
+<tr>
+	<td rowspan = "2">
+		<div class="d-grid gap-2" >
+		<button type="button" class="btn btn-primary imgb" >Select Image</button>
+		</div>
+	</td>
+	<td><div class = "row row-cols-6 pe-3">
+		<button type="button" class="btn btn-info col" >BEG</button>
+		<button type="button" class="btn btn-info col" ><<</button>
+		<button type="button" class="btn btn-primary col" ><</button>
+		<button type="button" class="btn btn-primary col" >></button>
+		<button type="button" class="btn btn-info col" >>></button>
+		<button type="button" class="btn btn-info col" >END</button>		
+	</div></td>
+</tr>
+<tr>
+	<td><div class = "row row-cols-2 pe-3">
+		<button type="button" class="btn btn-success col" >SAVE</button>
+		<button type="button" class="btn btn-danger col" >DELETE</button>
+		</div>
+	</td>
+</tr>
+</table>
+</div>
+
+<!--script>includeHTML()</script-->
+</body></html>

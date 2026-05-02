@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark"><head><title>Head</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+	<div class = "container-fluid">
+		<!--<a class="navbar-brand" href="#">
+			<img src="./images_bible/added/redLogo.gif" alt="MLG" style="width: 40px;" class="rounded-pill">
+			</a>-->
+		<a class = "navbar-brand" href = "bpod.html" >BPOD: Bible Picture Of the Day!</a>
+		<button title = "navbar icon" class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#mynavbar">
+		<span class = "navbar-toggler-icon"></span>
+		</button>
+		<div class = "collapse navbar-collapse" id = "mynavbar">
+
+		<ul class = "navbar-nav me-auto">
+
+			<li class = "nav-item"><a class = "nav-link" href = "bpod_help.html" >				Help	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "bpod_help.html#q4summaries">	Shortcut</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "biblePlan/biblePlan.html" >	Plan	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "../5study/historySegment.html" >Topical	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "../bpod.html" >				Home	</a></li>
+		</ul>
+
+		<form class = "d-flex">
+
+			<a id = "timed" class = "form-control me-2 text-nowrap notate" 
+				href = "biblePlan/biblePlan.html" >|</a>
+
+			<input id = "idEntry" class = "form-control me-2" type = "text" placeholder = "Search" />
+
+			<button id = "idEntryButton" class = "btn btn-primary" type = "button"
+				onclick = "searchTxt( document.getElementById( 'idEntry' ).value, 4 )">Search</button>
+		</form>
+		</div>
+	</div>
+</nav>
+
+</html>

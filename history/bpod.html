@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- ©2023 Martin George , All rights reserved.
+BPOD: Bible Picture of the Day.
+BPOD is a collection of Bible Pictures from Genesis to Revelation.
+Most images show an Archaeological context and include references, description, and significance.
+This data is part of establishing the Historical Accuracy of the Bible.
+-->
+
+<html lang="en" data-bs-theme="dark"><head><title>BPOD</title>
+<!-- base href="https://www.bpod343.com" -->
+<!-- base href="C:/Users/mamge/OneDrive/Documents/5Personal/Technology/mamgeorge/3service/" -->
+<meta charset="utf-8">
+<meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link type = "image/x-icon" rel = "shortcut icon" href = "./images/redLogo.png" />
+<link rel = "apple-touch-icon" href = "./images/redLogo.png" />
+<!--link type = "text/css" rel = "StyleSheet" href = "basics.css?v=1.10" /-->
+
+<script>document.writeln("<script type='text/javascript' src='bpod_img.js?v = " + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_txt.js?v = " + Date.now() + "'><\/script>");</script>
+<script>document.writeln("<script type='text/javascript' src='bpod_ctrl.js?v = " + Date.now() + "'><\/script>");</script>
+<script>
+window.onload = function() {
+
+	showMenu();
+
+	let linkPsa = 'Psa ' + (dayInYear*150/365).toFixed(0)
+	let linkPro = 'Pro ' + (new Date().getDate())
+
+	document.getElementById( 'timed' ).innerHTML = 'Day: ' + dayInYear + ', '
+		+ '<a class = "smllink" href = "' + linkBGW + linkPsa + '" >' + linkPsa + '</a>' + ', '
+		+ '<a class = "smllink" href = "' + linkBGW + linkPro + '" >' + linkPro + '</a>'
+
+	setTimeout(function() {
+
+		document.getElementById( imgCtr ).scrollIntoView(true)
+
+		const inputSearch = document.getElementById("idEntry")
+		const inputButton = document.getElementById("idEntryButton")
+		inputSearch.addEventListener( "keydown", function(event) {
+			if (event.keyCode === 13) { event.preventDefault(); inputButton.click() }
+		})
+
+	}, 1000)
+}
+</script>
+
+<style>
+body		{ font-family: verdana; line-height: 1; }
+button.main	{ width: 45px; border: 3px silver inset; border-radius: 10px; }
+
+th, tr:nth-child(odd) { background-color: #404040; }
+.tbm		{ border: 1px white inset; padding: 4px; }
+.vtop { vertical-align: top; }	
+
+red, .red		{ color: #ff4040; }
+ora, .ora		{ color: #ffa000; }
+yel, .yel		{ color: #ffff00; }
+grn, .grn		{ color: #00ff00; }
+blu, .blu		{ color: #0000ff; }
+pur, .pur		{ color: #ff00ff; }
+inf, .inf		{ color: #a0f0f0; }
+cen, .cen		{ text-align: center; }
+
+w, .w		{ color: #ffffff; }
+x, .x		{ color: #ffff00; }
+z, .z		{ color: #f080f0; }
+quote		{ color: #a0d0a0; font-size: 0.8em; font-family: "Lucida Console", monospace;  }
+.tab		{ margin-left: 40px; }
+.btns		{ padding-left: 0px; padding-right: 0px; font-weight: bold; color: #000000; }
+
+.iconbar	{ height: calc(105vh - 120px); overflow: auto; }
+.icosumm	{ height: calc(105vh - 120px); overflow: auto; width: 99%; overflow: auto;
+				border: 5px #c0a0a0 inset; border-radius: 10px; }
+
+.norp		{ white-space: nowrap; padding-left: 5px; padding-right: 5px; }
+.innr		{ background: #202020; margin: 20px; }
+.boxpad		{ padding-left: 10px; padding-right: 10px; color: #ffffff; }
+.boxers		{ border: 2px inset #ff8000; border-radius: 10px; height: 200px; overflow: auto; }
+.notate		{ border: 0px; text-decoration: none; }
+
+.rainbowbar	{ height: calc(105vh - 120px); overflow: auto; width: 15px;
+				background-image: linear-gradient( red, orange, yellow, green, blue, indigo, violet ); }
+
+.imgcont	{ width: 60%; vertical-align: top;
+				background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ), url( './images/parchment_light.jpg' ); }
+.imgmain	{ height: calc(105vh - 120px); overflow: auto; width: 100%; border-radius: 20px; }
+
+.imgsearch	{ width: 30px; }
+.imgsearch:hover, .imgsearch:focus { width: 200px; }
+
+.txtdetail	{ height: calc(105vh - 220px); overflow: auto; padding-left: 10px; }
+
+.sumbar		{ color: #ffffff;
+				-webkit-text-stroke-width: 1.0px; -webkit-text-stroke-color: #000000; }
+
+.gem		{ width: 95%; padding: 4px; padding-left: 20px; border: white solid 2px; border-radius: 2px; line-height: 1.2; }
+
+.smllink	{ text-decoration: none; }
+
+.bred		{ background: #401010 !important; }
+.byel		{ background: #404010 !important; }
+.bgrn		{ background: #104010 !important; }
+.bblu		{ background: #101040 !important; }
+.bpur		{ background: #401040 !important; }
+.bblk		{ background: #000000 }
+
+/* @media (max-width: 640px) { .imgmain { width: 30%; }, .txtdetail, navbar-brand { font-size: 8pt; } } */
+
+.slct { background-color: #000000; animation-name: super; animation-duration: 1s; animation-direction: alternate; animation-iteration-count: infinite; }
+@keyframes super { from { background-color: #000000; } to { background-color: #ffff00; } }
+
+.dupe { background-color: #000000; animation-name: duper; animation-duration: 1s; animation-direction: alternate; animation-iteration-count: infinite; }
+@keyframes duper { from { background-color: #000000; } to { background-color: #f040f0; } }
+</style>
+
+</head>
+
+<body>
+
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+	<div class = "container-fluid">
+		<!--<a class="navbar-brand" href="#">
+			<img src="./images_bible/added/redLogo.gif" alt="MLG" style="width: 40px;" class="rounded-pill">
+			</a>-->
+		<a class = "navbar-brand" href = "bpod.html" >BPOD: Bible Picture Of the Day!</a>
+		<button title = "navbar icon" class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#mynavbar">
+		<span class = "navbar-toggler-icon"></span>
+		</button>
+		<div class = "collapse navbar-collapse" id = "mynavbar">
+
+		<ul class = "navbar-nav me-auto">
+
+			<li class = "nav-item"><a class = "nav-link" href = "bpod_help.html" >				Help	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "bpod_help.html#q4summaries">	Shortcut</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "biblePlan/biblePlan.html" >	Plan	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "../5study/historySegment.html" >Topical	</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "../bpod.html" >				Home	</a></li>
+		</ul>
+
+		<form class = "d-flex">
+
+			<a id = "timed" class = "form-control me-2 text-nowrap notate" 
+				href = "biblePlan/biblePlan.html" >|</a>
+
+			<input id = "idEntry" class = "form-control me-2" type = "text" placeholder = "Search" />
+
+			<button id = "idEntryButton" class = "btn btn-primary" type = "button"
+				onclick = "searchTxt( document.getElementById( 'idEntry' ).value, 4 )">Search</button>
+		</form>
+		</div>
+	</div>
+</nav>
+
+<div class = "container-fluid mt-3">
+
+<table id = "tbMain" ><tr>
+
+<td id = "tdsBar" class = "vtop" >
+	<div id = "divbar" class = "iconbar" ></div></td>
+
+<td id = "tdsMsr" class = "rainbowbar" onclick = "msrLocate()"  title = "The rainbow bar allow fast navigation thru BPOD.
+	Clicking on the 'red' at the top takes you to the beginning of the Bible (Genesis).
+	Clicking on the 'purple' at the bottom takes you to the ending of the Bible (Revelation).">
+	<div id = "divmsr" ></div></td>
+
+<td id = "tdsImg" class = "imgcont" ><div id = "divimg" ></div></td>
+
+<td id = "tdsTxt" class = "vtop bblk" >
+	<div class = "d-flex justify-content-center gap-1" >
+	<button type="button" class="btn btn-sm btn-block main btn-success"	title = "Go Back Many"		onclick = "showImg('v')" > &#60;&#60;	</button>
+	<button type="button" class="btn btn-sm btn-block main btn-success"	title = "Go Back One"		onclick = "showImg('-')" > &#60;		</button>
+	<button type="button" class="btn btn-sm btn-block main btn-success"	title = "Go Forward One"	onclick = "showImg('+')" > >			</button>
+	<button type="button" class="btn btn-sm btn-block main btn-success"	title = "Go Forward Many"	onclick = "showImg('^')" > >>			</button>
+	</div>
+	<div class = "d-flex justify-content-center gap-1" >
+	<button type="button" class="btn btn-block main btn-info btn-sm btns"	title = "Goto Beginning (the first entry)"						onclick = "showImg('b')" > BEG	</button>
+	<button type="button" class="btn btn-block main btn-info btn-sm btns"	title = "Goto Ending (the last entry)"							onclick = "showImg('f')" > END	</button>
+	<button type="button" class="btn btn-block main btn-info btn-sm btns"	title = "Proportional View (toggles between stetch & natural)"	onclick = "getStretch()" > PRO	</button>
+	<button type="button" class="btn btn-block main btn-info btn-sm btns"	title = "Summary Collection (Shows a thumbnail of every item)"	onclick = "getSummary()" > SUM </button>
+	</div>
+	<br />
+	<div id = "divtxt" class = "txtdetail" ></div>
+</td>
+
+</tr></table>
+
+</div>
+</body></html>
