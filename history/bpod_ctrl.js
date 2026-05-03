@@ -1,6 +1,7 @@
 // ©2021, 2023 Martin George , All rights reserved.
 // 3service/bpod_ctrl.js
 
+//globals
 const baseurl = 'C:/Users/mamge/OneDrive/Documents/5Personal/Technology/mamgeorge/3service/'
 const folder = baseurl + 'images_bible/';
 const version = 'NASB';
@@ -25,7 +26,7 @@ const books = ('Gen Exo Lev Num Deu Josh Judg Ruth 1Sam 2Sam 1Kin 2Kin 1Chr 2Chr
 	+ 'Matt Mark Luke John Acts Rom 1Cor 2Cor Gal Eph Phil Col 1The 2The 1Tim 2Tim Titu Phm '
 	+ 'Heb Jam 1Pet 2Pet 1Jhn 2Jhn 3Jhn Jude Rev').split(" ")
 
-const txtCopyright = 'BPOD (Bible Picture of the Day): ©2023 Martin George, All rights reserved.';
+const txtCopyright = 'BPOD (Bible Picture of the Day): ©2026 Martin George, All rights reserved.';
 
 const txtDescription = [ 'BPOD is the Bible Picture of the Day. \n\
 \n\
@@ -215,7 +216,7 @@ function getMenuDivision( txt, pictures, ictr, tempStyleBnnr ) { // divisions
 
 function showImg( item ) {
 
-	if ( item == 'b' ) { imgCtr = 0; }
+		 if ( item == 'b' ) { imgCtr = 0; }
 	else if ( item == 'v' ) { imgCtr = imgCtr - btnAdvance; if ( imgCtr < 0 ) { imgCtr = 0; } }
 	else if ( item == '-' ) { if ( imgCtr > 0 ) { imgCtr--; } }
 	else if ( item == '+' ) { if ( imgCtr < imgLen ) { imgCtr++; } }
@@ -635,7 +636,9 @@ function getStretch( ) {
 }
 
 // utils
-function sumRainbow(ictr) { ictr = ictr * 320 / 255; colors = 'hsl( ' + ictr + ', 100%, 50% )'; return colors; }
+function sumRainbow(ictr) {
+	ictr = ictr * 320 / 255; colors = 'hsl( ' + ictr + ', 100%, 50% )'; return colors; 
+}
 
 function popupNote( anyNotes ) {
 
